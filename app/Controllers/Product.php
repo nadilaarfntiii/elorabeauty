@@ -312,17 +312,20 @@ class Product extends BaseController
         $product = $productModel->where('id_product', $category)->first();
 
         if ($product) {
-            $productModel->update($product['id_product'], [
-                'status' => 'Nonaktif'
-            ]);
-            session()->setFlashdata('success', 'Produk berhasil diarsipkan.');
+            if ($product['stok'] == 0) {
+                $productModel->update($product['id_product'], [
+                    'status' => 'Nonaktif'
+                ]);
+                session()->setFlashdata('success', 'Produk berhasil diarsipkan karena stok 0.');
+            } else {
+                session()->setFlashdata('info', 'Produk tidak diarsipkan karena stok lebih dari 0.');
+            }
         } else {
             session()->setFlashdata('error', 'Produk tidak ditemukan.');
         }
-        
+
         return redirect()->to('produk/arsip');
     }
-
 
     public function archived()
     {
@@ -330,11 +333,11 @@ class Product extends BaseController
         
         $data['archived_products'] = $productModel
             ->select('product.*, kategori.nm_kategori')
-            ->join('kategori', 'kategori.id_kategori = product.id_kategori', 'left')  // Adjust the join condition as needed
+            ->join('kategori', 'kategori.id_kategori = product.id_kategori', 'left') 
             ->where('product.status', 'Nonaktif')
             ->findAll();
 
-        return view('produk/arsip', $data);  // passing archived_products to the view
+        return view('produk/arsip', $data); 
     }
 
     public function activate($id_product, $category)
