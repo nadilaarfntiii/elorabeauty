@@ -142,8 +142,89 @@ class Cart extends Controller
         return view('cart', $data);
     }
 
-
     public function addToCart($productId)
+{
+    $session = session();
+
+    // Periksa apakah pengguna sudah login
+    if (!$session->has('isLoggedIn') || !$session->get('isLoggedIn')) {
+        $session->setFlashdata('error', 'Silakan login terlebih dahulu untuk menambah produk ke keranjang.');
+        return redirect()->to('/login');
+    }
+
+    // Ambil id_user dari session
+    $idUser = $session->get('id_user');
+    if (!$idUser) {
+        log_message('error', 'Session id_user tidak ditemukan atau null');
+        $session->setFlashdata('error', 'Data pengguna tidak ditemukan. Silakan login ulang.');
+        return redirect()->to('/login');
+    }
+
+    // Load model produk
+    $productModel = new ProductModel();
+    $product = $productModel->getProductById($productId);
+
+    // Periksa apakah produk ditemukan
+    if (!$product) {
+        $session->setFlashdata('error', 'Produk tidak ditemukan.');
+        return redirect()->to('/');
+    }
+
+    // Cek apakah stoknya 0, jika 0 maka produk tidak bisa ditambahkan ke keranjang
+    if ($product['stok'] == 0) {
+        $session->setFlashdata('error', 'Produk ini sudah habis dan tidak dapat ditambahkan ke keranjang.');
+        return redirect()->to('/');
+    }
+
+    // Hitung harga setelah diskon
+    $hargaDiskon = $product['harga'];
+    if (!empty($product['diskon'])) {
+        $hargaDiskon = $product['harga'] - ($product['harga'] * $product['diskon'] / 100);
+    }
+
+    // Load CartModel
+    $cartModel = new CartModel();
+
+    // Periksa apakah produk sudah ada di tabel cart untuk user ini
+    $existingCart = $cartModel->where('id_user', $idUser)
+        ->where('id_product', $productId)
+        ->first();
+
+    if ($existingCart) {
+        // Jika produk sudah ada, tambahkan kuantitas
+        $newQty = $existingCart['qty'] + 1;
+        $total = $newQty * $hargaDiskon;
+
+        // Update keranjang dengan kuantitas baru
+        $cartModel->update($existingCart['id_cart'], [
+            'qty' => $newQty,
+            'total' => $total,
+        ]);
+    } else {
+        // Jika produk belum ada, tambahkan sebagai item baru
+        $cartModel->save([
+            'id_user' => $idUser,
+            'id_kategori' => $product['id_kategori'],
+            'id_product' => $product['id_product'],
+            'gambar_1' => $product['gambar_1'], // Tambahkan gambar_1
+            'qty' => 1, // Kuantitas 1 untuk produk baru
+            'total' => $hargaDiskon, // Total bayar setelah diskon
+        ]);
+    }
+
+    // Kurangi stok produk
+    $productModel->update($product['id_product'], [
+        'stok' => $product['stok'] - 1,
+    ]);
+
+    // Redirect ke halaman keranjang
+    $session->setFlashdata('success', 'Produk berhasil ditambahkan ke keranjang.');
+    return redirect()->to('/');
+}
+
+
+
+    /* public function addToCart($productId)
 {
     $session = session();
 
@@ -210,7 +291,7 @@ class Cart extends Controller
     // Redirect ke halaman keranjang
     $session->setFlashdata('success', 'Produk berhasil ditambahkan ke keranjang.');
     return redirect()->to('/');
-}
+} */
 
 
 public function clearCart($cartId)

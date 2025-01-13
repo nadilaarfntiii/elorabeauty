@@ -267,12 +267,16 @@
 										<?php endif; ?>
 									</div>
 									<div class="product_stok">
-										Stok : <?= $product['stok'] > 0 ? $product['stok'] : 'Out of stock'; ?>
+										Stok : <?= $product['stok'] > 0 ? $product['stok'] : 'Stok Habis'; ?>
 									</div>
 								</div>
 							</div>
 							<div class="red_button add_to_cart_button">
-								<a href="<?= site_url('cart/addToCart/'.$product['id_product']); ?>">add to cart</a>
+								<?php if ($product['stok'] > 0): ?>
+									<a href="<?= site_url('cart/addToCart/'.$product['id_product']); ?>">Add to Cart</a>
+								<?php else: ?>
+									<button class="btn btn-secondary" disabled>Stok Habis</button>
+								<?php endif; ?>
 							</div>
 						</div>
 					<?php endforeach; ?>
