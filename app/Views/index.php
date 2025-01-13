@@ -6,13 +6,13 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="description" content="Colo Shop Template">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" href="<?= base_url('/public/assets/styles/bootstrap4/bootstrap.min.css'); ?>">
-<link href="<?= base_url('/public/assets/plugins/font-awesome-4.7.0/css/font-awesome.min.css'); ?>" rel="stylesheet" type="text/css">
-<link rel="stylesheet" type="text/css" href="<?= base_url('/public/assets/plugins/OwlCarousel2-2.2.1/owl.carousel.css'); ?>">
-<link rel="stylesheet" type="text/css" href="<?= base_url('/public/assets/plugins/OwlCarousel2-2.2.1/owl.theme.default.css'); ?>">
-<link rel="stylesheet" type="text/css" href="<?= base_url('/public/assets/plugins/OwlCarousel2-2.2.1/animate.css'); ?>">
-<link rel="stylesheet" type="text/css" href="<?= base_url('/public/assets/styles/main_styles.css'); ?>">
-<link rel="stylesheet" type="text/css" href="<?= base_url('/public/assets/styles/responsive.css'); ?>">
+<link rel="stylesheet" type="text/css" href="<?= base_url('assets/styles/bootstrap4/bootstrap.min.css'); ?>">
+<link href="<?= base_url('assets/plugins/font-awesome-4.7.0/css/font-awesome.min.css'); ?>" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="<?= base_url('assets/plugins/OwlCarousel2-2.2.1/owl.carousel.css'); ?>">
+<link rel="stylesheet" type="text/css" href="<?= base_url('assets/plugins/OwlCarousel2-2.2.1/owl.theme.default.css'); ?>">
+<link rel="stylesheet" type="text/css" href="<?= base_url('assets/plugins/OwlCarousel2-2.2.1/animate.css'); ?>">
+<link rel="stylesheet" type="text/css" href="<?= base_url('assets/styles/main_styles.css'); ?>">
+<link rel="stylesheet" type="text/css" href="<?= base_url('assets/styles/responsive.css'); ?>">
 <style>
 
 </style>
@@ -157,11 +157,11 @@
     <div id="carouselExample" class="carousel slide" data-ride="carousel" style="max-width: 70%; margin: auto;">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <div style="background-image:url(/public/assets/img/1.png); height: 90vh; background-size: contain; background-position: center; background-repeat: no-repeat; display: flex; justify-content: center; align-items: center;">
+                <div style="background-image:url(assets/img/1.png); height: 90vh; background-size: contain; background-position: center; background-repeat: no-repeat; display: flex; justify-content: center; align-items: center;">
                 </div>
             </div>
             <div class="carousel-item">
-                <div style="background-image:url(/public/assets/img/2.png); height: 90vh; background-size: contain; background-position: center; background-repeat: no-repeat; display: flex; justify-content: center; align-items: center;">
+                <div style="background-image:url(assets/img/2.png); height: 90vh; background-size: contain; background-position: center; background-repeat: no-repeat; display: flex; justify-content: center; align-items: center;">
                 </div>
             </div>
         </div>
@@ -499,13 +499,13 @@
 
 </div>
 
-<script src="<?= base_url('/public/assets/js/jquery-3.2.1.min.js'); ?>"></script>
-<script src="<?= base_url('/public/assets/styles/bootstrap4/popper.js'); ?>"></script>
-<script src="<?= base_url('/public/assets/styles/bootstrap4/bootstrap.min.js'); ?>"></script>
-<script src="<?= base_url('/public/assets/plugins/Isotope/isotope.pkgd.min.js'); ?>"></script>
-<script src="<?= base_url('/public/assets/plugins/OwlCarousel2-2.2.1/owl.carousel.js'); ?>"></script>
-<script src="<?= base_url('/public/assets/plugins/easing/easing.js'); ?>"></script>
-<script src="<?= base_url('/public/assets/js/custom.js'); ?>"></script>
+<script src="<?= base_url('assets/js/jquery-3.2.1.min.js'); ?>"></script>
+<script src="<?= base_url('assets/styles/bootstrap4/popper.js'); ?>"></script>
+<script src="<?= base_url('assets/styles/bootstrap4/bootstrap.min.js'); ?>"></script>
+<script src="<?= base_url('assets/plugins/Isotope/isotope.pkgd.min.js'); ?>"></script>
+<script src="<?= base_url('assets/plugins/OwlCarousel2-2.2.1/owl.carousel.js'); ?>"></script>
+<script src="<?= base_url('assets/plugins/easing/easing.js'); ?>"></script>
+<script src="<?= base_url('assets/js/custom.js'); ?>"></script>
 
 <script>
     function filterProducts(category) {
