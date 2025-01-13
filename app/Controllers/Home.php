@@ -23,6 +23,7 @@ class Home extends BaseController
         $this->pesananModel = new PesananModel();
         $this->cartModel = new CartModel();
         $this->session = \Config\Services::session();
+        helper('url');
     }
     public function index()
     {
@@ -43,6 +44,8 @@ class Home extends BaseController
         }
 
         log_message('debug', 'Jumlah produk unik di cart: ' . $data['cart_count']);
+
+        $homeUrl = base_url(); 
 
         return view('index', $data);
     }
