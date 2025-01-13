@@ -1,0 +1,635 @@
+INFO - 2024-12-18 09:28:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 09:29:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 09:29:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 09:29:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 09:29:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 09:29:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 09:29:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 09:29:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 09:32:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 09:38:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 09:47:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 09:50:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 09:54:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 09:56:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 09:56:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 10:02:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 10:02:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 10:09:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 10:09:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-18 10:10:59 --> mysqli_sql_exception: Table 'db_elora.products' doesn't exist in D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Validation\StrictRules\Rules.php(212): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Validation\Validation.php(311): CodeIgniter\Validation\StrictRules\Rules->is_unique('MKUP-SKNTFC-01', 'id_product', Array, NULL, 'id_product')
+#6 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Validation\Validation.php(197): CodeIgniter\Validation\Validation->processRules('id_product', 'id_product', 'MKUP-SKNTFC-01', Array, Array)
+#7 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Controller.php(152): CodeIgniter\Validation\Validation->run()
+#8 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\app\Controllers\Product.php(28): CodeIgniter\Controller->validate(Array)
+#9 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\CodeIgniter.php(942): App\Controllers\Product->store()
+#10 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#11 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHA...')
+#14 {main}
+CRITICAL - 2024-12-18 10:10:59 --> Table 'db_elora.products' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `products`
+WHERE `id_product` = :id_product:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Validation\StrictRules\Rules.php(212): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\Validation\Validation.php(311): CodeIgniter\Validation\StrictRules\Rules->is_unique('MKUP-SKNTFC-01', 'id_product', [...], null, 'id_product')
+ 4 SYSTEMPATH\Validation\Validation.php(197): CodeIgniter\Validation\Validation->processRules('id_product', 'id_product', 'MKUP-SKNTFC-01', [...], [...])
+ 5 SYSTEMPATH\Controller.php(152): CodeIgniter\Validation\Validation->run()
+ 6 APPPATH\Controllers\Product.php(28): CodeIgniter\Controller->validate([...])
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Product->store()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\public\\index.php')
+ERROR - 2024-12-18 10:13:16 --> mysqli_sql_exception: Table 'db_elora.products' doesn't exist in D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Validation\StrictRules\Rules.php(212): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Validation\Validation.php(311): CodeIgniter\Validation\StrictRules\Rules->is_unique('MKUP-SKNTFC-01', 'id_product', Array, NULL, 'id_product')
+#6 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Validation\Validation.php(197): CodeIgniter\Validation\Validation->processRules('id_product', 'id_product', 'MKUP-SKNTFC-01', Array, Array)
+#7 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Controller.php(152): CodeIgniter\Validation\Validation->run()
+#8 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\app\Controllers\Product.php(28): CodeIgniter\Controller->validate(Array)
+#9 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\CodeIgniter.php(942): App\Controllers\Product->store()
+#10 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#11 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHA...')
+#14 {main}
+CRITICAL - 2024-12-18 10:13:16 --> Table 'db_elora.products' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `products`
+WHERE `id_product` = :id_product:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Validation\StrictRules\Rules.php(212): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\Validation\Validation.php(311): CodeIgniter\Validation\StrictRules\Rules->is_unique('MKUP-SKNTFC-01', 'id_product', [...], null, 'id_product')
+ 4 SYSTEMPATH\Validation\Validation.php(197): CodeIgniter\Validation\Validation->processRules('id_product', 'id_product', 'MKUP-SKNTFC-01', [...], [...])
+ 5 SYSTEMPATH\Controller.php(152): CodeIgniter\Validation\Validation->run()
+ 6 APPPATH\Controllers\Product.php(28): CodeIgniter\Controller->validate([...])
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Product->store()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\public\\index.php')
+CRITICAL - 2024-12-18 10:15:35 --> Cannot redeclare App\Controllers\Product::store()
+in APPPATH\Controllers\Product.php on line 129.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+ERROR - 2024-12-18 10:16:10 --> mysqli_sql_exception: Table 'db_elora.products' doesn't exist in D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Validation\StrictRules\Rules.php(212): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Validation\Validation.php(311): CodeIgniter\Validation\StrictRules\Rules->is_unique('MKUP-SKNTFC-01', 'id_product', Array, NULL, 'id_product')
+#6 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Validation\Validation.php(197): CodeIgniter\Validation\Validation->processRules('id_product', 'id_product', 'MKUP-SKNTFC-01', Array, Array)
+#7 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Controller.php(152): CodeIgniter\Validation\Validation->run()
+#8 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\app\Controllers\Product.php(28): CodeIgniter\Controller->validate(Array)
+#9 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\CodeIgniter.php(942): App\Controllers\Product->store()
+#10 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#11 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHA...')
+#14 {main}
+CRITICAL - 2024-12-18 10:16:10 --> Table 'db_elora.products' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `products`
+WHERE `id_product` = :id_product:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Validation\StrictRules\Rules.php(212): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\Validation\Validation.php(311): CodeIgniter\Validation\StrictRules\Rules->is_unique('MKUP-SKNTFC-01', 'id_product', [...], null, 'id_product')
+ 4 SYSTEMPATH\Validation\Validation.php(197): CodeIgniter\Validation\Validation->processRules('id_product', 'id_product', 'MKUP-SKNTFC-01', [...], [...])
+ 5 SYSTEMPATH\Controller.php(152): CodeIgniter\Validation\Validation->run()
+ 6 APPPATH\Controllers\Product.php(28): CodeIgniter\Controller->validate([...])
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Product->store()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\public\\index.php')
+ERROR - 2024-12-18 10:19:18 --> mysqli_sql_exception: Table 'db_elora.products' doesn't exist in D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Validation\StrictRules\Rules.php(212): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Validation\Validation.php(311): CodeIgniter\Validation\StrictRules\Rules->is_unique('MKUP-SKNTFC-01', 'id_product', Array, NULL, 'id_product')
+#6 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Validation\Validation.php(197): CodeIgniter\Validation\Validation->processRules('id_product', 'id_product', 'MKUP-SKNTFC-01', Array, Array)
+#7 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Controller.php(152): CodeIgniter\Validation\Validation->run()
+#8 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\app\Controllers\Product.php(28): CodeIgniter\Controller->validate(Array)
+#9 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\CodeIgniter.php(942): App\Controllers\Product->store()
+#10 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#11 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHA...')
+#14 {main}
+CRITICAL - 2024-12-18 10:19:18 --> Table 'db_elora.products' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `products`
+WHERE `id_product` = :id_product:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Validation\StrictRules\Rules.php(212): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\Validation\Validation.php(311): CodeIgniter\Validation\StrictRules\Rules->is_unique('MKUP-SKNTFC-01', 'id_product', [...], null, 'id_product')
+ 4 SYSTEMPATH\Validation\Validation.php(197): CodeIgniter\Validation\Validation->processRules('id_product', 'id_product', 'MKUP-SKNTFC-01', [...], [...])
+ 5 SYSTEMPATH\Controller.php(152): CodeIgniter\Validation\Validation->run()
+ 6 APPPATH\Controllers\Product.php(28): CodeIgniter\Controller->validate([...])
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Product->store()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\public\\index.php')
+INFO - 2024-12-18 10:19:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-18 10:19:29 --> mysqli_sql_exception: Table 'db_elora.products' doesn't exist in D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Validation\StrictRules\Rules.php(212): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Validation\Validation.php(311): CodeIgniter\Validation\StrictRules\Rules->is_unique('MKUP-SKNTFC-01', 'id_product', Array, NULL, 'id_product')
+#6 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Validation\Validation.php(197): CodeIgniter\Validation\Validation->processRules('id_product', 'id_product', 'MKUP-SKNTFC-01', Array, Array)
+#7 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Controller.php(152): CodeIgniter\Validation\Validation->run()
+#8 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\app\Controllers\Product.php(28): CodeIgniter\Controller->validate(Array)
+#9 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\CodeIgniter.php(942): App\Controllers\Product->store()
+#10 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#11 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHA...')
+#14 {main}
+CRITICAL - 2024-12-18 10:19:29 --> Table 'db_elora.products' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `products`
+WHERE `id_product` = :id_product:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Validation\StrictRules\Rules.php(212): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\Validation\Validation.php(311): CodeIgniter\Validation\StrictRules\Rules->is_unique('MKUP-SKNTFC-01', 'id_product', [...], null, 'id_product')
+ 4 SYSTEMPATH\Validation\Validation.php(197): CodeIgniter\Validation\Validation->processRules('id_product', 'id_product', 'MKUP-SKNTFC-01', [...], [...])
+ 5 SYSTEMPATH\Controller.php(152): CodeIgniter\Validation\Validation->run()
+ 6 APPPATH\Controllers\Product.php(28): CodeIgniter\Controller->validate([...])
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Product->store()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\public\\index.php')
+INFO - 2024-12-18 10:20:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 10:20:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 15:12:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 15:14:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 15:14:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 15:14:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 15:14:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 15:24:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 15:24:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 15:26:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 15:26:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 15:28:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 15:32:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-18 15:32:43 --> Invalid file: "makeup_create.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('makeup_create.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('makeup_create', [], true)
+ 3 APPPATH\Controllers\Product.php(19): view('makeup_create')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Product->makeup_create()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\public\\index.php')
+INFO - 2024-12-18 15:33:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 15:34:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 15:34:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 15:35:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 15:35:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 15:36:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 15:36:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 15:36:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 15:36:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 15:36:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 15:36:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 15:37:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 15:39:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 15:40:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 15:41:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 15:42:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 15:42:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 15:42:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 15:52:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 15:53:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 15:54:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 15:54:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 15:55:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 16:08:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 16:10:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 16:10:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-18 16:11:55 --> mysqli_sql_exception: Unknown column 'nama_kategori' in 'where clause' in D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\app\Controllers\Product.php(84): CodeIgniter\BaseModel->first()
+#7 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\CodeIgniter.php(942): App\Controllers\Product->store()
+#8 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#9 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHA...')
+#12 {main}
+CRITICAL - 2024-12-18 16:11:55 --> Unknown column 'nama_kategori' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kategori`
+WHERE `nama_kategori` = :nama_kategori:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\Product.php(84): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Product->store()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\public\\index.php')
+INFO - 2024-12-18 16:12:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 16:12:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 16:15:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 16:16:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 16:16:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 16:18:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 16:23:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 16:23:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 16:26:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-18 16:26:21 --> Undefined array key "nm_product"
+in APPPATH\Views\makeup.php on line 99.
+ 1 APPPATH\Views\makeup.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nm_product"', 'D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\app\\Views\\makeup.php', 99)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\app\\Views\\makeup.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('makeup', [], true)
+ 5 APPPATH\Controllers\Product.php(20): view('makeup', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Product->makeup()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\public\\index.php')
+INFO - 2024-12-18 16:27:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-18 16:27:12 --> Undefined array key "nm_product"
+in APPPATH\Views\makeup.php on line 99.
+ 1 APPPATH\Views\makeup.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nm_product"', 'D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\app\\Views\\makeup.php', 99)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\app\\Views\\makeup.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('makeup', [], true)
+ 5 APPPATH\Controllers\Product.php(20): view('makeup', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Product->makeup()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\public\\index.php')
+INFO - 2024-12-18 16:27:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 16:27:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-18 16:27:38 --> Undefined array key "nm_product"
+in APPPATH\Views\makeup.php on line 99.
+ 1 APPPATH\Views\makeup.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nm_product"', 'D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\app\\Views\\makeup.php', 99)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\app\\Views\\makeup.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('makeup', [], true)
+ 5 APPPATH\Controllers\Product.php(20): view('makeup', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Product->makeup()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\public\\index.php')
+INFO - 2024-12-18 16:28:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 16:28:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-18 16:28:38 --> Undefined array key "nm_product"
+in APPPATH\Views\makeup.php on line 99.
+ 1 APPPATH\Views\makeup.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nm_product"', 'D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\app\\Views\\makeup.php', 99)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\app\\Views\\makeup.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('makeup', [], true)
+ 5 APPPATH\Controllers\Product.php(20): view('makeup', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Product->makeup()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\public\\index.php')
+INFO - 2024-12-18 16:30:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 16:32:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 16:34:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 16:35:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 16:40:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 16:40:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 16:40:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 16:41:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 16:41:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 16:44:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 16:45:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 16:46:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 16:48:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 16:49:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 16:49:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 16:49:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 16:50:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 16:50:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 16:50:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 16:50:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 16:52:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 16:52:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 16:52:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 16:52:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 16:53:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 16:53:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 16:53:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 16:53:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 16:54:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 16:54:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 16:54:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 16:57:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 16:57:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 16:58:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 16:59:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 16:59:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 17:02:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 17:02:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-18 17:02:25 --> Undefined array key "productId"
+in APPPATH\Views\product_update.php on line 36.
+ 1 APPPATH\Views\product_update.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "productId"', 'D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\app\\Views\\product_update.php', 36)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\app\\Views\\product_update.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('product_update', [], true)
+ 5 APPPATH\Controllers\Product.php(159): view('product_update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Product->edit('MKUP-SKNTFC')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\public\\index.php')
+INFO - 2024-12-18 17:03:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-18 17:03:40 --> Undefined array key "name"
+in APPPATH\Views\product_update.php on line 41.
+ 1 APPPATH\Views\product_update.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\app\\Views\\product_update.php', 41)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\app\\Views\\product_update.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('product_update', [], true)
+ 5 APPPATH\Controllers\Product.php(159): view('product_update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Product->edit('MKUP-SKNTFC')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\public\\index.php')
+INFO - 2024-12-18 17:06:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-18 17:06:56 --> Undefined array key "img"
+in APPPATH\Views\product_update.php on line 67.
+ 1 APPPATH\Views\product_update.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "img"', 'D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\app\\Views\\product_update.php', 67)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\app\\Views\\product_update.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('product_update', [], true)
+ 5 APPPATH\Controllers\Product.php(159): view('product_update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Product->edit('MKUP-SKNTFC')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\public\\index.php')
+INFO - 2024-12-18 17:09:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-18 17:09:00 --> Undefined constant "i"
+in APPPATH\Views\product_update.php on line 206.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('product_update', [], true)
+ 4 APPPATH\Controllers\Product.php(159): view('product_update', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Product->edit('MKUP-SKNTFC')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\public\\index.php')
+INFO - 2024-12-18 17:11:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-18 17:11:59 --> Undefined constant "i"
+in APPPATH\Views\product_update.php on line 211.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('product_update', [], true)
+ 4 APPPATH\Controllers\Product.php(159): view('product_update', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Product->edit('MKUP-SKNTFC')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\public\\index.php')
+INFO - 2024-12-18 17:12:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-18 17:12:34 --> Undefined array key "productId"
+in APPPATH\Views\product_update.php on line 155.
+ 1 APPPATH\Views\product_update.php(155): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "productId"', 'D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\app\\Views\\product_update.php', 155)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\app\\Views\\product_update.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('product_update', [], true)
+ 5 APPPATH\Controllers\Product.php(159): view('product_update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Product->edit('MKUP-SKNTFC')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\public\\index.php')
+CRITICAL - 2024-12-18 17:38:35 --> Invalid file: "product_update.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('product_update.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('product_update', [], true)
+ 3 APPPATH\Controllers\Product.php(159): view('product_update', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Product->edit('MKUP-SKNTFC')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\public\\index.php')
+INFO - 2024-12-18 17:39:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-18 17:39:28 --> Undefined array key "productId"
+in APPPATH\Views\product_update.php on line 155.
+ 1 APPPATH\Views\product_update.php(155): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "productId"', 'D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\app\\Views\\product_update.php', 155)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\app\\Views\\product_update.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('product_update', [], true)
+ 5 APPPATH\Controllers\Product.php(159): view('product_update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Product->edit('MKUP-SKNTFC')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\public\\index.php')
+INFO - 2024-12-18 17:39:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-18 17:39:55 --> Undefined array key "name"
+in APPPATH\Views\product_update.php on line 158.
+ 1 APPPATH\Views\product_update.php(158): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\app\\Views\\product_update.php', 158)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\app\\Views\\product_update.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('product_update', [], true)
+ 5 APPPATH\Controllers\Product.php(159): view('product_update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Product->edit('MKUP-SKNTFC')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\public\\index.php')
+INFO - 2024-12-18 17:44:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-18 17:44:29 --> Invalid file: "layout/admin.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/admin.php')
+ 2 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('layout/admin', [], true)
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('product_update', [], true)
+ 4 APPPATH\Controllers\Product.php(159): view('product_update', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Product->edit('MKUP-SKNTFC')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\public\\index.php')
+INFO - 2024-12-18 17:44:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 17:53:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 17:53:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 17:53:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 17:54:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 17:56:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 17:56:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 17:56:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 17:56:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 17:57:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 17:57:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 17:57:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 17:59:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 17:59:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 17:59:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 17:59:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 17:59:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 18:00:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 18:00:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 18:00:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 18:00:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 18:00:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 18:02:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 18:02:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 18:03:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 18:03:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 18:05:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 18:07:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 18:09:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 18:13:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 18:15:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-18 18:15:12 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_elora`.`product`, CONSTRAINT `product_ibfk_1` FOREIGN KEY (`id_kategori`) REFERENCES `kategori` (`id_kategori`) ON DELETE CASCADE ON UPDATE CASCADE) in D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `product...', 0)
+#1 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `product...')
+#2 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `product...')
+#3 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `product...', Array, false)
+#4 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+#5 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\BaseModel.php(949): CodeIgniter\Model->doUpdate(Array, Array)
+#6 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Model.php(776): CodeIgniter\BaseModel->update(Array, Array)
+#7 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\app\Controllers\Product.php(206): CodeIgniter\Model->update('MKUP-SKNTFC', Array)
+#8 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\CodeIgniter.php(942): App\Controllers\Product->update('MKUP-SKNTFC')
+#9 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#10 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHA...')
+#13 {main}
+CRITICAL - 2024-12-18 18:15:12 --> Cannot add or update a child row: a foreign key constraint fails (`db_elora`.`product`, CONSTRAINT `product_ibfk_1` FOREIGN KEY (`id_kategori`) REFERENCES `kategori` (`id_kategori`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `product` SET `nama_product` = :nama_product:, `product_detail` = :product_detail:, `harga` = :harga:, `stok` = :stok:, `id_kategori` = :id_kategori:, `deskripsi` = :deskripsi:, `manfaat` = :manfaat:, `kandungan` = :kandungan:, `cara_penggunaan` = :cara_penggunaan:, `ukuran` = :ukuran:, `no_bpom` = :no_bpom:
+WHERE `product`.`id_product` IN :product.id_product:', [...], false)
+ 2 SYSTEMPATH\Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(949): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH\Controllers\Product.php(206): CodeIgniter\Model->update('MKUP-SKNTFC', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Product->update('MKUP-SKNTFC')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\public\\index.php')
+INFO - 2024-12-18 18:15:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-18 18:16:03 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_elora`.`product`, CONSTRAINT `product_ibfk_1` FOREIGN KEY (`id_kategori`) REFERENCES `kategori` (`id_kategori`) ON DELETE CASCADE ON UPDATE CASCADE) in D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `product...', 0)
+#1 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `product...')
+#2 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `product...')
+#3 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `product...', Array, false)
+#4 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+#5 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\BaseModel.php(949): CodeIgniter\Model->doUpdate(Array, Array)
+#6 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Model.php(776): CodeIgniter\BaseModel->update(Array, Array)
+#7 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\app\Controllers\Product.php(206): CodeIgniter\Model->update('MKUP-SKNTFC', Array)
+#8 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\CodeIgniter.php(942): App\Controllers\Product->update('MKUP-SKNTFC')
+#9 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#10 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHA...')
+#13 {main}
+CRITICAL - 2024-12-18 18:16:03 --> Cannot add or update a child row: a foreign key constraint fails (`db_elora`.`product`, CONSTRAINT `product_ibfk_1` FOREIGN KEY (`id_kategori`) REFERENCES `kategori` (`id_kategori`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `product` SET `nama_product` = :nama_product:, `product_detail` = :product_detail:, `harga` = :harga:, `stok` = :stok:, `id_kategori` = :id_kategori:, `deskripsi` = :deskripsi:, `manfaat` = :manfaat:, `kandungan` = :kandungan:, `cara_penggunaan` = :cara_penggunaan:, `ukuran` = :ukuran:, `no_bpom` = :no_bpom:
+WHERE `product`.`id_product` IN :product.id_product:', [...], false)
+ 2 SYSTEMPATH\Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(949): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH\Controllers\Product.php(206): CodeIgniter\Model->update('MKUP-SKNTFC', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Product->update('MKUP-SKNTFC')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\public\\index.php')
+INFO - 2024-12-18 18:17:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 18:18:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-18 18:19:48 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_elora`.`product`, CONSTRAINT `product_ibfk_1` FOREIGN KEY (`id_kategori`) REFERENCES `kategori` (`id_kategori`) ON DELETE CASCADE ON UPDATE CASCADE) in D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `product...', 0)
+#1 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `product...')
+#2 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `product...')
+#3 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `product...', Array, false)
+#4 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+#5 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\BaseModel.php(949): CodeIgniter\Model->doUpdate(Array, Array)
+#6 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Model.php(776): CodeIgniter\BaseModel->update(Array, Array)
+#7 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\app\Controllers\Product.php(206): CodeIgniter\Model->update('MKUP-SKNTFC', Array)
+#8 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\CodeIgniter.php(942): App\Controllers\Product->update('MKUP-SKNTFC')
+#9 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#10 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHA...')
+#13 {main}
+CRITICAL - 2024-12-18 18:19:48 --> Cannot add or update a child row: a foreign key constraint fails (`db_elora`.`product`, CONSTRAINT `product_ibfk_1` FOREIGN KEY (`id_kategori`) REFERENCES `kategori` (`id_kategori`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `product` SET `nama_product` = :nama_product:, `product_detail` = :product_detail:, `harga` = :harga:, `stok` = :stok:, `id_kategori` = :id_kategori:, `deskripsi` = :deskripsi:, `manfaat` = :manfaat:, `kandungan` = :kandungan:, `cara_penggunaan` = :cara_penggunaan:, `ukuran` = :ukuran:, `no_bpom` = :no_bpom:
+WHERE `product`.`id_product` IN :product.id_product:', [...], false)
+ 2 SYSTEMPATH\Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(949): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH\Controllers\Product.php(206): CodeIgniter\Model->update('MKUP-SKNTFC', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Product->update('MKUP-SKNTFC')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\public\\index.php')
+INFO - 2024-12-18 18:22:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 18:22:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 18:22:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 18:22:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 18:23:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 18:23:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 18:23:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 18:24:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 18:24:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 18:24:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 18:24:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 18:26:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 18:26:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 18:26:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 18:27:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 18:29:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 18:29:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 18:31:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 18:31:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 18:31:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 18:31:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 18:31:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 18:33:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 18:36:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-18 18:36:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

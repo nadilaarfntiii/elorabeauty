@@ -1,0 +1,802 @@
+INFO - 2025-01-08 04:00:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 04:00:13 --> Jumlah produk unik di cart: 0
+INFO - 2025-01-08 04:09:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 04:09:47 --> Jumlah produk unik di cart: 0
+INFO - 2025-01-08 04:11:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 04:11:30 --> Jumlah produk unik di cart: 0
+INFO - 2025-01-08 04:11:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 04:11:56 --> Jumlah produk unik di cart: 0
+INFO - 2025-01-08 04:12:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 04:12:38 --> Jumlah produk unik di cart: 0
+INFO - 2025-01-08 04:14:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 04:14:29 --> Jumlah produk unik di cart: 0
+INFO - 2025-01-08 04:15:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 04:15:12 --> Jumlah produk unik di cart: 0
+INFO - 2025-01-08 04:16:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 04:16:27 --> Jumlah produk unik di cart: 0
+INFO - 2025-01-08 04:26:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 04:26:19 --> Jumlah produk unik di cart: 0
+INFO - 2025-01-08 04:27:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 04:27:11 --> Jumlah produk unik di cart: 0
+INFO - 2025-01-08 04:27:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 04:27:42 --> Jumlah produk unik di cart: 0
+INFO - 2025-01-08 04:28:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 04:28:10 --> Jumlah produk unik di cart: 0
+INFO - 2025-01-08 04:28:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 04:28:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 04:28:46 --> Jumlah produk unik di cart: 0
+INFO - 2025-01-08 04:29:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 04:29:58 --> Jumlah produk unik di cart: 0
+INFO - 2025-01-08 04:30:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 04:30:30 --> Jumlah produk unik di cart: 0
+INFO - 2025-01-08 04:30:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 04:30:45 --> Jumlah produk unik di cart: 0
+INFO - 2025-01-08 04:30:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 04:30:53 --> Jumlah produk unik di cart: 0
+INFO - 2025-01-08 04:31:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 04:31:04 --> Jumlah produk unik di cart: 0
+INFO - 2025-01-08 04:31:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 04:31:41 --> Jumlah produk unik di cart: 0
+INFO - 2025-01-08 04:31:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 04:31:58 --> Jumlah produk unik di cart: 0
+INFO - 2025-01-08 04:33:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 04:33:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 04:33:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 04:37:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 04:38:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-08 04:38:35 --> mysqli_sql_exception: Can't update table 'users' in stored function/trigger because it is already used by statement which invoked this stored function/trigger in D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\app\Controllers\Home.php(166): CodeIgniter\BaseModel->save(Array)
+#9 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\CodeIgniter.php(942): App\Controllers\Home->store()
+#10 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHA...')
+#14 {main}
+CRITICAL - 2025-01-08 04:38:35 --> Can't update table 'users' in stored function/trigger because it is already used by statement which invoked this stored function/trigger
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`username`, `password`, `email`, `nama_lengkap`, `no_hp`, `alamat_lengkap`, `kota`, `provinsi`, `kode_pos`, `negara`, `role`, `dibuat_pada`, `diperbarui_pada`) VALUES (:username:, :password:, :email:, :nama_lengkap:, :no_hp:, :alamat_lengkap:, :kota:, :provinsi:, :kode_pos:, :negara:, :role:, :dibuat_pada:, :diperbarui_pada:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Home.php(166): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->store()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\public\\index.php')
+INFO - 2025-01-08 04:39:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-08 04:39:36 --> mysqli_sql_exception: Can't update table 'users' in stored function/trigger because it is already used by statement which invoked this stored function/trigger in D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\app\Controllers\Home.php(166): CodeIgniter\BaseModel->save(Array)
+#9 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\CodeIgniter.php(942): App\Controllers\Home->store()
+#10 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHA...')
+#14 {main}
+CRITICAL - 2025-01-08 04:39:36 --> Can't update table 'users' in stored function/trigger because it is already used by statement which invoked this stored function/trigger
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`username`, `password`, `email`, `nama_lengkap`, `no_hp`, `alamat_lengkap`, `kota`, `provinsi`, `kode_pos`, `negara`, `role`, `dibuat_pada`, `diperbarui_pada`) VALUES (:username:, :password:, :email:, :nama_lengkap:, :no_hp:, :alamat_lengkap:, :kota:, :provinsi:, :kode_pos:, :negara:, :role:, :dibuat_pada:, :diperbarui_pada:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Home.php(166): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->store()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\public\\index.php')
+INFO - 2025-01-08 04:39:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 04:39:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-08 04:39:51 --> mysqli_sql_exception: Can't update table 'users' in stored function/trigger because it is already used by statement which invoked this stored function/trigger in D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\app\Controllers\Home.php(166): CodeIgniter\BaseModel->save(Array)
+#9 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\CodeIgniter.php(942): App\Controllers\Home->store()
+#10 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHA...')
+#14 {main}
+CRITICAL - 2025-01-08 04:39:51 --> Can't update table 'users' in stored function/trigger because it is already used by statement which invoked this stored function/trigger
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`username`, `password`, `email`, `nama_lengkap`, `no_hp`, `alamat_lengkap`, `kota`, `provinsi`, `kode_pos`, `negara`, `role`, `dibuat_pada`, `diperbarui_pada`) VALUES (:username:, :password:, :email:, :nama_lengkap:, :no_hp:, :alamat_lengkap:, :kota:, :provinsi:, :kode_pos:, :negara:, :role:, :dibuat_pada:, :diperbarui_pada:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Home.php(166): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->store()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\public\\index.php')
+INFO - 2025-01-08 04:40:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 04:40:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 04:40:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 04:40:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 04:40:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 04:40:29 --> Jumlah produk unik di cart: 0
+INFO - 2025-01-08 04:44:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 04:47:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 04:47:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 04:49:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 04:51:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 06:03:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-08 06:03:46 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'db_elora', 3306, '', 0)
+#1 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `product...', Array, false)
+#4 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\app\Models\ProductModel.php(41): CodeIgniter\BaseModel->findAll()
+#7 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\app\Controllers\Home.php(32): App\Models\ProductModel->getProductsByCategory()
+#8 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\CodeIgniter.php(942): App\Controllers\Home->index()
+#9 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHA...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `product...', Array, false)
+#3 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\app\Models\ProductModel.php(41): CodeIgniter\BaseModel->findAll()
+#6 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\app\Controllers\Home.php(32): App\Models\ProductModel->getProductsByCategory()
+#7 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\CodeIgniter.php(942): App\Controllers\Home->index()
+#8 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHA...')
+#12 {main}
+CRITICAL - 2025-01-08 06:03:46 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `product`.*, `kategori`.`nm_kategori`
+FROM `product`
+JOIN `kategori` ON `kategori`.`id_kategori` = `product`.`id_kategori`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\ProductModel.php(41): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\Home.php(32): App\Models\ProductModel->getProductsByCategory()
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\public\\index.php')
+INFO - 2025-01-08 06:04:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 06:04:08 --> Jumlah produk unik di cart: 0
+INFO - 2025-01-08 06:04:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 06:04:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 06:04:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 06:04:32 --> Jumlah produk unik di cart: 1
+INFO - 2025-01-08 06:04:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 06:07:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 06:07:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 06:07:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 06:07:32 --> Jumlah produk unik di cart: 0
+INFO - 2025-01-08 06:07:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-08 06:07:43 --> Undefined array key "qty"
+in APPPATH\Views\single.php on line 233.
+ 1 APPPATH\Views\single.php(233): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "qty"', 'D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\app\\Views\\single.php', 233)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\app\\Views\\single.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('single', [], true)
+ 5 APPPATH\Controllers\Single.php(29): view('single', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Single->index('HNB-ELPS-01')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Single))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\public\\index.php')
+INFO - 2025-01-08 06:07:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 06:07:46 --> Jumlah produk unik di cart: 0
+INFO - 2025-01-08 06:09:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 06:09:27 --> Jumlah produk unik di cart: 0
+INFO - 2025-01-08 06:09:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 06:11:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 06:11:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 06:12:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 06:18:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 06:19:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-08 06:19:10 --> Call to undefined method CodeIgniter\Session\Session::getId()
+in APPPATH\Controllers\Single.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Single->addToCart('HNB-01')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Single))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\public\\index.php')
+INFO - 2025-01-08 06:20:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-08 06:20:39 --> Call to undefined method CodeIgniter\Session\Session::getID()
+in APPPATH\Controllers\Single.php on line 48.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Single->addToCart('HNB-01')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Single))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\public\\index.php')
+INFO - 2025-01-08 06:23:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-08 06:23:49 --> Call to undefined method CodeIgniter\Session\Session::getId()
+in APPPATH\Controllers\Single.php on line 48.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Single->addToCart('HNB-01')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Single))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\public\\index.php')
+INFO - 2025-01-08 06:23:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-08 06:23:52 --> Call to undefined method CodeIgniter\Session\Session::getId()
+in APPPATH\Controllers\Single.php on line 48.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Single->addToCart('HNB-01')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Single))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\public\\index.php')
+INFO - 2025-01-08 06:26:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-08 06:26:02 --> Call to undefined method CodeIgniter\Session\Session::getId()
+in APPPATH\Controllers\Single.php on line 50.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Single->addToCart('HNB-01')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Single))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\public\\index.php')
+INFO - 2025-01-08 06:27:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-08 06:27:11 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_elora`.`cart`, CONSTRAINT `cart_ibfk_1` FOREIGN KEY (`id_kategori`) REFERENCES `kategori` (`id_kategori`) ON DELETE CASCADE ON UPDATE CASCADE) in D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ca...', 0)
+#1 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\app\Controllers\Single.php(59): CodeIgniter\BaseModel->save(Array)
+#9 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\CodeIgniter.php(942): App\Controllers\Single->addToCart('HNB-01')
+#10 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Single))
+#11 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHA...')
+#14 {main}
+CRITICAL - 2025-01-08 06:27:11 --> Cannot add or update a child row: a foreign key constraint fails (`db_elora`.`cart`, CONSTRAINT `cart_ibfk_1` FOREIGN KEY (`id_kategori`) REFERENCES `kategori` (`id_kategori`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cart` (`id_user`, `id_product`, `qty`, `total`) VALUES (:id_user:, :id_product:, :qty:, :total:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Single.php(59): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Single->addToCart('HNB-01')
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Single))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\public\\index.php')
+INFO - 2025-01-08 06:27:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 06:27:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-08 06:27:23 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_elora`.`cart`, CONSTRAINT `cart_ibfk_1` FOREIGN KEY (`id_kategori`) REFERENCES `kategori` (`id_kategori`) ON DELETE CASCADE ON UPDATE CASCADE) in D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ca...', 0)
+#1 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\app\Controllers\Single.php(59): CodeIgniter\BaseModel->save(Array)
+#9 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\CodeIgniter.php(942): App\Controllers\Single->addToCart('HNB-01')
+#10 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Single))
+#11 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHA...')
+#14 {main}
+CRITICAL - 2025-01-08 06:27:23 --> Cannot add or update a child row: a foreign key constraint fails (`db_elora`.`cart`, CONSTRAINT `cart_ibfk_1` FOREIGN KEY (`id_kategori`) REFERENCES `kategori` (`id_kategori`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cart` (`id_user`, `id_product`, `qty`, `total`) VALUES (:id_user:, :id_product:, :qty:, :total:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Single.php(59): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Single->addToCart('HNB-01')
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Single))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\public\\index.php')
+INFO - 2025-01-08 06:30:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-08 06:30:10 --> Undefined variable $productId
+in APPPATH\Controllers\Single.php on line 47.
+ 1 APPPATH\Controllers\Single.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $productId', 'D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\app\\Controllers\\Single.php', 47)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Single->addToCart('HNB-01')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Single))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\public\\index.php')
+INFO - 2025-01-08 06:32:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 06:32:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 06:32:04 --> Jumlah produk unik di cart: 1
+INFO - 2025-01-08 06:32:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 06:32:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 06:32:12 --> Jumlah produk unik di cart: 1
+INFO - 2025-01-08 06:32:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 06:32:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 06:32:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 06:32:22 --> Jumlah produk unik di cart: 2
+INFO - 2025-01-08 06:32:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 06:58:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 06:58:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 06:58:32 --> Received quantity: 2
+INFO - 2025-01-08 06:58:32 --> Total baru untuk produk: 323593.5
+INFO - 2025-01-08 06:58:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 06:58:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 06:58:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 06:58:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 06:58:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 06:58:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 06:58:48 --> Jumlah produk unik di cart: 0
+INFO - 2025-01-08 06:58:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 06:58:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 06:58:56 --> Jumlah produk unik di cart: 1
+INFO - 2025-01-08 06:59:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 06:59:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 06:59:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 06:59:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 06:59:11 --> Jumlah produk unik di cart: 0
+INFO - 2025-01-08 06:59:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 06:59:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-08 06:59:22 --> Too few arguments to function App\Controllers\Single::addToCart(), 1 passed in D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\CodeIgniter.php on line 942 and exactly 2 expected
+in APPPATH\Controllers\Single.php on line 34.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Single->addToCart('MKUP-MYBLN-01')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Single))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\public\\index.php')
+INFO - 2025-01-08 07:03:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-08 07:03:12 --> Too few arguments to function App\Controllers\Single::addToCart(), 1 passed in D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\CodeIgniter.php on line 942 and exactly 2 expected
+in APPPATH\Controllers\Single.php on line 34.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Single->addToCart('MKUP-MYBLN-01')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Single))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\public\\index.php')
+INFO - 2025-01-08 07:03:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 07:03:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-08 07:03:23 --> Too few arguments to function App\Controllers\Single::addToCart(), 1 passed in D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\CodeIgniter.php on line 942 and exactly 2 expected
+in APPPATH\Controllers\Single.php on line 34.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Single->addToCart('MKUP-MYBLN-01')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Single))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\public\\index.php')
+INFO - 2025-01-08 07:03:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 07:03:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 07:03:37 --> Jumlah produk unik di cart: 1
+INFO - 2025-01-08 07:03:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 07:03:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 07:03:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 07:03:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 07:03:51 --> Jumlah produk unik di cart: 0
+INFO - 2025-01-08 07:04:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 07:04:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 07:04:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 07:04:22 --> Jumlah produk unik di cart: 1
+INFO - 2025-01-08 07:04:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 07:04:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 07:04:29 --> Jumlah produk unik di cart: 1
+INFO - 2025-01-08 07:07:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 07:07:26 --> Jumlah produk unik di cart: 1
+INFO - 2025-01-08 07:07:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 07:07:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 07:07:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 07:07:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 07:07:39 --> Jumlah produk unik di cart: 0
+INFO - 2025-01-08 07:08:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 07:08:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 07:08:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 07:08:52 --> Jumlah produk unik di cart: 1
+INFO - 2025-01-08 07:08:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 07:09:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 07:09:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 07:09:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 07:10:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 07:10:29 --> Jumlah produk unik di cart: 0
+INFO - 2025-01-08 07:10:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 07:10:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 07:10:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 07:13:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 07:13:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 07:13:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 07:13:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 07:13:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 07:15:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 07:15:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 07:15:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 07:17:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 07:17:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 07:17:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 07:17:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 07:19:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 07:20:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 07:21:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 07:21:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 07:21:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 07:21:11 --> Jumlah produk unik di cart: 1
+INFO - 2025-01-08 07:21:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 07:21:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 07:21:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 07:21:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 07:21:22 --> Jumlah produk unik di cart: 0
+INFO - 2025-01-08 07:24:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 07:24:45 --> Jumlah produk unik di cart: 0
+INFO - 2025-01-08 07:24:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 07:24:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-08 07:24:54 --> Too few arguments to function App\Controllers\Single::addToCart(), 1 passed in D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\CodeIgniter.php on line 942 and exactly 2 expected
+in APPPATH\Controllers\Single.php on line 34.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Single->addToCart('HNB-01')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Single))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\public\\index.php')
+INFO - 2025-01-08 07:25:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-08 07:25:55 --> Too few arguments to function App\Controllers\Single::addToCart(), 1 passed in D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\CodeIgniter.php on line 942 and exactly 2 expected
+in APPPATH\Controllers\Single.php on line 34.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Single->addToCart('HNB-01')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Single))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\public\\index.php')
+INFO - 2025-01-08 07:26:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 07:26:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-08 07:26:13 --> Too few arguments to function App\Controllers\Single::addToCart(), 1 passed in D:\A_PERKULIAHAN\SEMESTER 5 nadila\E - COMMERCE\elora\system\CodeIgniter.php on line 942 and exactly 2 expected
+in APPPATH\Controllers\Single.php on line 34.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Single->addToCart('HNB-01')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Single))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\public\\index.php')
+INFO - 2025-01-08 07:27:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 07:29:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 07:29:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 07:30:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 07:30:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 07:30:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 07:31:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 07:31:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 07:31:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 07:31:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 07:31:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 07:34:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 07:34:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 07:39:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 07:39:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 07:40:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 07:40:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 07:40:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 07:40:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 07:40:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 07:42:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 07:42:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 07:44:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 07:46:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 07:46:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 07:48:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 07:48:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 07:48:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 07:49:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 07:49:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 07:49:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 07:49:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 07:52:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 07:54:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 07:54:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 07:55:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 07:55:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 07:55:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 08:02:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 08:02:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 08:02:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 08:02:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 08:02:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 08:02:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 08:02:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 08:02:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 08:02:26 --> Received quantity: 6
+INFO - 2025-01-08 08:02:26 --> Total baru untuk produk: 405000
+INFO - 2025-01-08 08:02:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 08:02:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 08:02:29 --> Received quantity: 5
+INFO - 2025-01-08 08:02:29 --> Total baru untuk produk: 337500
+INFO - 2025-01-08 08:02:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 08:02:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 08:02:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 08:02:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 08:02:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 08:02:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 08:09:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 08:10:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 08:10:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 08:10:32 --> Stock updated for product HNB-01. New stock: 71
+INFO - 2025-01-08 08:10:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 08:10:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 08:12:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 08:12:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 08:12:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 08:12:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 08:12:53 --> Stock updated for product HNB-01. New stock: 71
+INFO - 2025-01-08 08:12:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 08:12:54 --> Jumlah produk unik di cart: 0
+INFO - 2025-01-08 08:13:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 08:13:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 08:13:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 08:13:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 08:13:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 08:14:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 08:14:02 --> Jumlah produk unik di cart: 0
+INFO - 2025-01-08 08:14:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 08:14:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 08:14:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 08:15:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 08:15:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 08:15:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 08:15:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 14:46:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 14:46:29 --> Jumlah produk unik di cart: 0
+INFO - 2025-01-08 14:46:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 14:47:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 14:47:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 14:47:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 14:47:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 14:47:31 --> Jumlah produk unik di cart: 0
+INFO - 2025-01-08 14:47:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 14:47:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 14:47:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 14:48:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 14:48:05 --> Received quantity: 3
+INFO - 2025-01-08 14:48:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 14:48:09 --> Received quantity: 1
+INFO - 2025-01-08 14:48:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 14:48:14 --> Received quantity: 1
+INFO - 2025-01-08 14:48:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 14:48:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 14:48:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 14:48:30 --> Stock updated for product HNB-ELPS-01. New stock: 1
+INFO - 2025-01-08 14:48:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 14:48:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 14:52:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 14:56:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 14:56:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 14:56:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 14:56:11 --> Jumlah produk unik di cart: 0
+INFO - 2025-01-08 14:56:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 14:56:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 14:56:19 --> Jumlah produk unik di cart: 0
+INFO - 2025-01-08 14:56:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 14:57:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 14:57:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 14:57:45 --> Jumlah produk unik di cart: 0
+INFO - 2025-01-08 14:57:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 14:58:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 14:58:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 14:59:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 14:59:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 14:59:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 14:59:17 --> Jumlah produk unik di cart: 1
+INFO - 2025-01-08 14:59:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 14:59:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 14:59:28 --> Stock updated for product HRB-GNG-01. New stock: 2
+INFO - 2025-01-08 14:59:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 14:59:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 14:59:34 --> Jumlah produk unik di cart: 0
+INFO - 2025-01-08 14:59:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 15:02:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 15:02:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 15:02:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 15:02:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 15:02:43 --> Stock updated for product HRB-GNG-01. New stock: 2
+INFO - 2025-01-08 15:02:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 15:02:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 15:02:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 15:02:52 --> Jumlah produk unik di cart: 0
+INFO - 2025-01-08 15:02:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 15:03:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 15:03:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 15:03:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 15:03:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 15:03:14 --> Jumlah produk unik di cart: 1
+INFO - 2025-01-08 15:03:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 15:03:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 15:03:21 --> Jumlah produk unik di cart: 2
+INFO - 2025-01-08 15:03:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 15:03:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 15:03:29 --> Jumlah produk unik di cart: 3
+INFO - 2025-01-08 15:03:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-01-08 15:04:14 --> [DEPRECATED] Creation of dynamic property App\Controllers\CO::$detailPesananModel is deprecated in APPPATH\Controllers\CO.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CO->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\public\\index.php')
+INFO - 2025-01-08 15:04:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-01-08 15:04:14 --> [DEPRECATED] Creation of dynamic property App\Controllers\CO::$detailPesananModel is deprecated in APPPATH\Controllers\CO.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CO->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\public\\index.php')
+WARNING - 2025-01-08 15:04:18 --> [DEPRECATED] Creation of dynamic property App\Controllers\CO::$detailPesananModel is deprecated in APPPATH\Controllers\CO.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CO->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\public\\index.php')
+INFO - 2025-01-08 15:04:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-01-08 15:04:18 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\orders.php on line 202.
+ 1 APPPATH\Views\orders.php(202): htmlspecialchars(null)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\app\\Views\\orders.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('orders', [], true)
+ 5 APPPATH\Controllers\CO.php(103): view('orders', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CO->orders()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CO))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\public\\index.php')
+WARNING - 2025-01-08 15:04:18 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\orders.php on line 202.
+ 1 APPPATH\Views\orders.php(202): htmlspecialchars(null)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\app\\Views\\orders.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('orders', [], true)
+ 5 APPPATH\Controllers\CO.php(103): view('orders', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CO->orders()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CO))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\public\\index.php')
+INFO - 2025-01-08 15:04:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 15:05:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 15:05:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 15:05:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 15:05:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 15:05:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 15:12:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 15:12:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 15:12:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 15:12:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 15:12:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 15:13:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 15:13:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 15:13:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 15:13:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 15:13:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 15:13:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 15:13:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 15:13:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 15:14:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 15:15:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-08 15:15:23 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Views\produk.php on line 98.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('produk', [], true)
+ 4 APPPATH\Controllers\Product.php(19): view('produk', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Product->produk()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\public\\index.php')
+INFO - 2025-01-08 15:15:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 15:16:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 15:17:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 15:17:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 15:18:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 15:18:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 15:19:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 15:19:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 15:19:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 15:19:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 15:19:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 15:25:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 15:26:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 15:27:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 15:27:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 15:29:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 15:30:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 15:32:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 15:33:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 15:34:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 15:34:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 15:35:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 15:36:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 15:36:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 15:38:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 15:53:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 15:56:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 15:59:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 16:00:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 16:00:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 16:01:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 16:01:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 16:04:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-08 16:04:22 --> Undefined variable $categories
+in APPPATH\Views\laporan\produk.php on line 107.
+ 1 APPPATH\Views\laporan\produk.php(107): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categories', 'D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\app\\Views\\laporan\\produk.php', 107)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\app\\Views\\laporan\\produk.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('laporan/produk', [], true)
+ 5 APPPATH\Controllers\Laporan.php(19): view('laporan/produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Laporan->produk()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\public\\index.php')
+INFO - 2025-01-08 16:05:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-08 16:05:05 --> Undefined variable $kategori
+in APPPATH\Views\laporan\produk.php on line 107.
+ 1 APPPATH\Views\laporan\produk.php(107): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategori', 'D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\app\\Views\\laporan\\produk.php', 107)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\app\\Views\\laporan\\produk.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('laporan/produk', [], true)
+ 5 APPPATH\Controllers\Laporan.php(19): view('laporan/produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Laporan->produk()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\public\\index.php')
+INFO - 2025-01-08 16:06:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-08 16:06:53 --> Undefined array key "nm_kategori"
+in APPPATH\Views\laporan\produk.php on line 151.
+ 1 APPPATH\Views\laporan\produk.php(151): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nm_kategori"', 'D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\app\\Views\\laporan\\produk.php', 151)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\app\\Views\\laporan\\produk.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('laporan/produk', [], true)
+ 5 APPPATH\Controllers\Laporan.php(28): view('laporan/produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Laporan->produk()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\public\\index.php')
+INFO - 2025-01-08 16:08:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 16:10:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 16:10:41 --> No products found.
+INFO - 2025-01-08 16:10:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 16:10:46 --> No products found.
+INFO - 2025-01-08 16:10:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 16:10:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 16:11:42 --> No products found.
+INFO - 2025-01-08 16:11:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 16:11:47 --> No products found.
+INFO - 2025-01-08 16:11:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 16:13:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 16:13:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 16:13:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 16:13:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

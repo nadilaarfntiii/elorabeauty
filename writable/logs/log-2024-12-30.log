@@ -1,0 +1,501 @@
+INFO - 2024-12-30 03:36:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-30 03:36:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$session is deprecated in APPPATH\Controllers\Home.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\public\\index.php')
+INFO - 2024-12-30 03:37:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 03:37:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 03:38:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 03:38:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-30 03:38:42 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$session is deprecated in APPPATH\Controllers\Home.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\public\\index.php')
+INFO - 2024-12-30 03:38:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 03:39:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-30 03:39:52 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$session is deprecated in APPPATH\Controllers\Home.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\public\\index.php')
+INFO - 2024-12-30 03:39:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 03:39:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-30 03:39:59 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$session is deprecated in APPPATH\Controllers\Home.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\public\\index.php')
+INFO - 2024-12-30 03:40:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 03:40:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-30 03:40:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$session is deprecated in APPPATH\Controllers\Home.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\public\\index.php')
+INFO - 2024-12-30 03:40:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 03:41:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 03:41:41 --> Received quantity: 2
+INFO - 2024-12-30 03:41:41 --> New total for product: 140800
+INFO - 2024-12-30 03:41:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 03:42:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 03:42:55 --> Received quantity: 1
+INFO - 2024-12-30 03:42:55 --> New total for product: 70400
+INFO - 2024-12-30 03:42:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 03:43:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-30 03:43:12 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$session is deprecated in APPPATH\Controllers\Home.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\public\\index.php')
+INFO - 2024-12-30 03:43:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 04:00:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 04:00:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 04:00:30 --> Received quantity: 2
+INFO - 2024-12-30 04:00:30 --> New total for product: 140800
+INFO - 2024-12-30 04:00:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 04:00:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 04:02:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 04:02:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-30 04:02:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$session is deprecated in APPPATH\Controllers\Home.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\public\\index.php')
+INFO - 2024-12-30 04:02:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 04:02:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 04:02:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 04:02:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 04:02:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-30 04:02:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$session is deprecated in APPPATH\Controllers\Home.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\public\\index.php')
+INFO - 2024-12-30 04:03:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-30 04:03:39 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$session is deprecated in APPPATH\Controllers\Home.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\public\\index.php')
+INFO - 2024-12-30 04:03:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-30 04:03:40 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$session is deprecated in APPPATH\Controllers\Home.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\public\\index.php')
+INFO - 2024-12-30 04:03:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-30 04:03:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$session is deprecated in APPPATH\Controllers\Home.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\public\\index.php')
+INFO - 2024-12-30 04:03:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 04:04:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 04:04:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 04:04:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 04:04:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-30 04:04:59 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$session is deprecated in APPPATH\Controllers\Home.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\public\\index.php')
+INFO - 2024-12-30 04:05:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 04:05:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-30 04:05:22 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$session is deprecated in APPPATH\Controllers\Home.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\public\\index.php')
+INFO - 2024-12-30 04:05:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 04:05:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-30 04:05:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$session is deprecated in APPPATH\Controllers\Home.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\public\\index.php')
+INFO - 2024-12-30 04:05:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 04:05:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-30 04:05:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$session is deprecated in APPPATH\Controllers\Home.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\public\\index.php')
+INFO - 2024-12-30 04:05:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 04:05:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-30 04:05:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$session is deprecated in APPPATH\Controllers\Home.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\public\\index.php')
+INFO - 2024-12-30 04:06:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 04:06:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-30 04:06:09 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$session is deprecated in APPPATH\Controllers\Home.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\public\\index.php')
+INFO - 2024-12-30 04:11:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 04:11:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 04:11:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 04:12:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 04:16:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 04:16:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 04:16:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 04:16:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 04:16:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 04:16:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 04:16:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 04:19:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 04:26:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 04:26:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 04:28:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 04:28:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 04:28:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 04:29:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 04:35:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-30 04:35:17 --> Cannot redeclare App\Models\CartModel::countCartItems()
+in APPPATH\Models\CartModel.php on line 38.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-12-30 04:35:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 04:36:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 04:36:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 04:36:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 04:36:57 --> Received quantity: 2
+INFO - 2024-12-30 04:36:57 --> New total for product: 188000
+INFO - 2024-12-30 04:36:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 04:36:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 04:36:59 --> Received quantity: 1
+INFO - 2024-12-30 04:36:59 --> New total for product: 94000
+INFO - 2024-12-30 04:37:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 04:37:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 04:37:03 --> Received quantity: 2
+INFO - 2024-12-30 04:37:03 --> New total for product: 188000
+INFO - 2024-12-30 04:37:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 04:37:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 04:38:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 04:38:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 04:39:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 04:39:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 04:39:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 04:39:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 04:39:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 04:39:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 04:42:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-30 04:42:34 --> Jumlah produk di cart: 0
+INFO - 2024-12-30 04:42:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-30 04:42:39 --> Jumlah produk di cart: 0
+INFO - 2024-12-30 04:42:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 04:42:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 04:42:48 --> Received quantity: 1
+INFO - 2024-12-30 04:42:48 --> New total for product: 94000
+INFO - 2024-12-30 04:42:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 04:48:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 04:48:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 04:48:04 --> Received quantity: 2
+INFO - 2024-12-30 04:48:04 --> New total for product: 188000
+INFO - 2024-12-30 04:48:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 04:48:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 04:48:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 04:48:10 --> Received quantity: 1
+INFO - 2024-12-30 04:48:10 --> New total for product: 94000
+INFO - 2024-12-30 04:48:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 04:48:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-30 04:48:14 --> Jumlah produk unik di cart: 1
+INFO - 2024-12-30 04:48:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 04:48:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 04:48:21 --> Received quantity: 2
+INFO - 2024-12-30 04:48:21 --> New total for product: 188000
+INFO - 2024-12-30 04:48:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 04:48:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-30 04:48:24 --> Jumlah produk unik di cart: 1
+INFO - 2024-12-30 04:48:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-30 04:48:29 --> Jumlah produk unik di cart: 1
+INFO - 2024-12-30 04:48:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 04:48:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-30 04:48:33 --> Jumlah produk unik di cart: 2
+INFO - 2024-12-30 04:48:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 04:48:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-30 04:48:41 --> Jumlah produk unik di cart: 2
+INFO - 2024-12-30 04:48:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 05:43:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 05:45:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 05:46:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-30 05:46:19 --> Call to undefined method App\Models\CartModel::getCartByUser
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\CO.php(18): CodeIgniter\Model->__call('getCartByUser', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CO->checkout()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CO))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\public\\index.php')
+INFO - 2024-12-30 05:46:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 05:46:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-30 05:46:30 --> Call to undefined method App\Models\CartModel::getCartByUser
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\CO.php(18): CodeIgniter\Model->__call('getCartByUser', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CO->checkout()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CO))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\public\\index.php')
+INFO - 2024-12-30 05:49:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-30 05:49:22 --> Undefined array key "diskon"
+in APPPATH\Controllers\CO.php on line 23.
+ 1 APPPATH\Controllers\CO.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "diskon"', 'D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\app\\Controllers\\CO.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CO->checkout()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CO))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\public\\index.php')
+INFO - 2024-12-30 05:56:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-30 05:56:06 --> Undefined array key "diskon"
+in APPPATH\Controllers\CO.php on line 23.
+ 1 APPPATH\Controllers\CO.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "diskon"', 'D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\app\\Controllers\\CO.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CO->checkout()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CO))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\public\\index.php')
+INFO - 2024-12-30 07:13:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-30 07:13:50 --> Undefined array key "diskon"
+in APPPATH\Controllers\CO.php on line 23.
+ 1 APPPATH\Controllers\CO.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "diskon"', 'D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\app\\Controllers\\CO.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CO->checkout()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CO))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\public\\index.php')
+INFO - 2024-12-30 07:13:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-30 07:13:54 --> Undefined array key "diskon"
+in APPPATH\Controllers\CO.php on line 23.
+ 1 APPPATH\Controllers\CO.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "diskon"', 'D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\app\\Controllers\\CO.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CO->checkout()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CO))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\public\\index.php')
+INFO - 2024-12-30 07:15:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-30 07:15:07 --> Undefined array key "diskon"
+in APPPATH\Controllers\CO.php on line 23.
+ 1 APPPATH\Controllers\CO.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "diskon"', 'D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\app\\Controllers\\CO.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CO->checkout()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CO))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\public\\index.php')
+INFO - 2024-12-30 07:28:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-30 07:28:34 --> Undefined array key "diskon"
+in APPPATH\Controllers\CO.php on line 23.
+ 1 APPPATH\Controllers\CO.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "diskon"', 'D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\app\\Controllers\\CO.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CO->checkout()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CO))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\public\\index.php')
+INFO - 2024-12-30 07:46:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-30 07:46:53 --> Undefined array key "harga"
+in APPPATH\Controllers\CO.php on line 27.
+ 1 APPPATH\Controllers\CO.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "harga"', 'D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\app\\Controllers\\CO.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CO->checkout()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CO))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\public\\index.php')
+INFO - 2024-12-30 08:11:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-30 08:11:03 --> Jumlah produk unik di cart: 0
+INFO - 2024-12-30 08:11:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 08:11:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 08:11:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-30 08:11:30 --> Jumlah produk unik di cart: 3
+INFO - 2024-12-30 08:11:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 08:12:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-30 08:12:01 --> Undefined array key "harga"
+in APPPATH\Controllers\CO.php on line 27.
+ 1 APPPATH\Controllers\CO.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "harga"', 'D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\app\\Controllers\\CO.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CO->checkout()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CO))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\public\\index.php')
+INFO - 2024-12-30 08:12:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 08:15:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-30 08:15:14 --> Undefined array key "harga"
+in APPPATH\Controllers\CO.php on line 27.
+ 1 APPPATH\Controllers\CO.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "harga"', 'D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\app\\Controllers\\CO.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CO->checkout()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CO))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\public\\index.php')
+INFO - 2024-12-30 08:24:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-30 08:24:13 --> Undefined array key "harga"
+in APPPATH\Controllers\CO.php on line 27.
+ 1 APPPATH\Controllers\CO.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "harga"', 'D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\app\\Controllers\\CO.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CO->checkout()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CO))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\public\\index.php')
+INFO - 2024-12-30 08:40:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-30 08:40:19 --> Call to undefined method CodeIgniter\Session\Session::getId()
+in APPPATH\Controllers\Cart.php on line 264.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Cart->checkout()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\public\\index.php')
+INFO - 2024-12-30 08:41:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-30 08:41:43 --> Call to undefined method CodeIgniter\Session\Session::getSessionID()
+in APPPATH\Controllers\Cart.php on line 264.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Cart->checkout()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\public\\index.php')
+INFO - 2024-12-30 08:45:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-30 08:45:34 --> Undefined array key "harga"
+in APPPATH\Controllers\Cart.php on line 285.
+ 1 APPPATH\Controllers\Cart.php(285): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "harga"', 'D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\app\\Controllers\\Cart.php', 285)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Cart->checkout()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\public\\index.php')
+INFO - 2024-12-30 08:48:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-30 08:48:22 --> Undefined array key "harga"
+in APPPATH\Controllers\Cart.php on line 285.
+ 1 APPPATH\Controllers\Cart.php(285): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "harga"', 'D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\app\\Controllers\\Cart.php', 285)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Cart->checkout()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\public\\index.php')
+INFO - 2024-12-30 09:02:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 09:03:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-30 09:03:05 --> Undefined array key "name"
+in APPPATH\Views\checkout.php on line 147.
+ 1 APPPATH\Views\checkout.php(147): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\app\\Views\\checkout.php', 147)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\app\\Views\\checkout.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('checkout', [], true)
+ 5 APPPATH\Controllers\CO.php(32): view('checkout', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CO->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CO))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\public\\index.php')
+INFO - 2024-12-30 09:03:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 09:03:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-30 09:03:14 --> Undefined array key "name"
+in APPPATH\Views\checkout.php on line 147.
+ 1 APPPATH\Views\checkout.php(147): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\app\\Views\\checkout.php', 147)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\app\\Views\\checkout.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('checkout', [], true)
+ 5 APPPATH\Controllers\CO.php(32): view('checkout', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CO->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CO))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\public\\index.php')
+INFO - 2024-12-30 09:03:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 09:09:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-30 09:09:38 --> Undefined array key "name"
+in APPPATH\Views\checkout.php on line 147.
+ 1 APPPATH\Views\checkout.php(147): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\app\\Views\\checkout.php', 147)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\app\\Views\\checkout.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('checkout', [], true)
+ 5 APPPATH\Controllers\CO.php(32): view('checkout', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CO->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CO))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\public\\index.php')
+INFO - 2024-12-30 09:17:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 09:24:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 09:25:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 09:25:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 09:30:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 09:30:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 09:30:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 09:32:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 09:32:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 09:37:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-30 09:38:06 --> syntax error, unexpected token "<", expecting "function" or "const"
+in APPPATH\Controllers\CO.php on line 20.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\app\\Controllers\\CO.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CO')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CO')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\CO', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\public\\index.php')
+CRITICAL - 2024-12-30 09:38:35 --> Unmatched '}'
+in APPPATH\Controllers\CO.php on line 109.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\app\\Controllers\\CO.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CO')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CO')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\CO', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\public\\index.php')
+INFO - 2024-12-30 09:38:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 09:38:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 09:39:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 09:39:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 15:01:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-30 15:01:35 --> Jumlah produk unik di cart: 0
+INFO - 2024-12-30 15:01:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 15:02:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 15:02:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-30 15:02:03 --> Jumlah produk unik di cart: 3
+INFO - 2024-12-30 15:02:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 15:03:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 15:03:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 15:12:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 15:18:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 15:18:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 15:28:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 15:31:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 15:35:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 15:41:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 15:44:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-30 15:44:09 --> syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+in APPPATH\Views\cart.php on line 559.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('cart', [], true)
+ 3 APPPATH\Controllers\Cart.php(142): view('cart', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Cart->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\public\\index.php')
+INFO - 2024-12-30 15:44:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 15:45:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 15:45:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 15:45:41 --> Received quantity: 1
+INFO - 2024-12-30 15:45:41 --> New total for product: 70400
+INFO - 2024-12-30 15:45:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-30 16:01:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

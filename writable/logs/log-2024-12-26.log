@@ -1,0 +1,487 @@
+INFO - 2024-12-26 06:47:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 06:47:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 06:48:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 06:48:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 06:53:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 06:54:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 06:57:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 06:57:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 07:00:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 07:03:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 07:10:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-26 07:10:36 --> Undefined array key "nm_kategori"
+in APPPATH\Views\categories.php on line 243.
+ 1 APPPATH\Views\categories.php(243): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nm_kategori"', 'D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\app\\Views\\categories.php', 243)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\app\\Views\\categories.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('categories', [], true)
+ 5 APPPATH\Controllers\Home.php(151): view('categories', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->categories()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\public\\index.php')
+DEBUG - 2024-12-26 07:13:09 --> Products loaded: Array
+(
+    [0] => Array
+        (
+            [id_product] => HNB-01
+            [nama_product] => Scarlett Whitening Body Scrub
+            [product_detail] => Scarlett Whitening Body Scrub Jolly
+            [harga] => 75000
+            [diskon] => 10
+            [stok] => 100
+            [id_kategori] => HNB-01
+            [gambar_1] => 1734583030_705a6fac5cf78be13852.png
+            [gambar_2] => 1734583030_7e94f36babcccff8467d.png
+            [gambar_3] => 1734583031_05fd3a40a46fdb536c74.png
+            [gambar_4] => 1734583031_e4af8991d6994a3e23bf.png
+            [deskripsi] => Scarlett Whitening Body Scrub Jolly 250 ML
+            [manfaat] => Manfaat :
+• Membantu mengangkat sel kulit mati
+• Merawat kulit agar tetap halus, lembut dan tidak kering
+            [kandungan] => Kandungan :
+GLUTATHIONE
+• Mencerahkan dan meratakan warna kulit
+• Menjaga kelembapan dan elastisitas kulit
+• Kandungan anti-oksidannya membantu membuat kulit lebih sehat, halus dan lembut
+
+VITAMIN E
+• Membantu menyejukkan kulit yang teriritasi ringan
+• Merawat kekencangan kulit
+• Menjaga kelembapan dan elastisitas kulit
+• Melindungi kulit dari efek buruk sinar UV
+            [cara_penggunaan] => Cara Pakai :
+• Oleskan body scrub ke tangan/tubuh secara merata
+• Diamkan 2-3 menit lalu gosok secara perlahan
+• Bilas dengan air hingga bersih
+• Body Scrub sebaiknya digunakan seminggu 2x
+            [ukuran] => 250 ml
+            [no_bpom] => NA18220701108
+        )
+
+    [1] => Array
+        (
+            [id_product] => HNB-ELPS-01
+            [nama_product] => Ellips  Dry Shampoo Breeze
+            [product_detail] => Ellips Dry Shampoo Breeze
+            [harga] => 94000
+            [diskon] => 0
+            [stok] => 10
+            [id_kategori] => HNB-01
+            [gambar_1] => 1735117502_77dd2dd7068e9f00bba9.png
+            [gambar_2] => 1735117502_cbd1acc6c52c2f998381.png
+            [gambar_3] => 1735117502_28382e4db790f5a60cb8.png
+            [gambar_4] => 1735117502_937ca885ce33eef29fc7.png
+            [deskripsi] => Shampoo kering yang diformulasikan khusus untuk membantu mengurangi minyak berlebih pada rambut dan kulit kepala dengan wangi floral yang tahan lama, membuat rambut Anda terasa lebih segar dan mengembang seperti sehabis keramas. Tersedia dalam kemasan 50 ml dan 200 ml
+
+Ellips Dry Shampoo Breeze 5 merupakan shampoo dengan formulasi khusus untuk membantu mengurangi minyak berlebih pada rambut dan kulit kepala agar rambut terasa lebih segar
+            [manfaat] => IMengurangi minyak berlebih di rambut dan kulit kepala
+            [kandungan] => Propane, Butane, Isobutane, Aluminum Starch Octenyl Succinate, Alcohol Denat, Silica, Fragrance, Benzalkonium Chloride, Menthol, Cyclopentasiloxane, Cyclohexasiloxane
+            [cara_penggunaan] => 1. Kocok secukupnya sebelum aplikasi
+2. semprot kebagian kulit kepala dengan jarak 30cm
+3. pijat dengan jari kemudian tata rambut 
+            [ukuran] => 200 ml
+            [no_bpom] => NA18171002410
+        )
+
+    [2] => Array
+        (
+            [id_product] => HRB-GNG-01
+            [nama_product] => Grace and Glow Bright & Glow Body Serum
+            [product_detail] => Grace and Glow Bright & Glow Body Serum
+            [harga] => 70400
+            [diskon] => 0
+            [stok] => 10
+            [id_kategori] => HNB-01
+            [gambar_1] => 1735117249_dedd6f3d17a4301f24fe.png
+            [gambar_2] => 1735117249_fd2f1c19687ab6e578a1.png
+            [gambar_3] => 1735117249_77b63cdfbe0b401fd573.png
+            [gambar_4] => 1735117249_690c0d666d06471daf48.png
+            [deskripsi] => Black Ophium Ultra Bright & Glow Solution Body Serum Body Serum yang memiliki wewangian dari parfum branded/high end. Diformulasikan sebagai serum badan dengan Niacinamide yang memiliki antioksidan tinggi bekerja sebagai agen untuk mencerahkan, melembabkan kulit.
+            [manfaat] => untuk mencerahkan,  dan melembabkan kulit.
+            [kandungan] => Water, glycerin, caprylic/capric triglyceride, cyclopentasiloxane, ci 77891, niacinamide, butylene glycol, panthenol, phenoxyethanol, carbomer, triethanolamine, chlorphenesin, sodium acrylate/sodium acryloyldimethyl taurate, copolymer, fragrance, isohexadecane, simmondsia chinensis (jojoba) seed oil, aluminum hydroxide, silica, polysorbate 80, triethoxycaprylylsilane, disodium edta, sorbitan oleate, butyrospermum parkii (shea) butter, sodium hyaluronate, glutathione, lactococcus ferment lysate, ellagic acid, ryoku-cha ekisu, hydrolyzed, soybean extract, morus nigra fruit extract, lactobacillus ferment, glycyrrhiza uralensis (licorice) root extract, pentylene glycol, 1,2-hexanediol, hydroxyacetophenone, lactic acid, sodium chloride, sodium benzoate.
+            [cara_penggunaan] => Tuangkan produk ke tangan dan usapkan ke tubuh dan biarkan menyerap. Gunakan sehari dua kali,pagi dan malam hari.
+            [ukuran] => 300 ml
+            [no_bpom] => NA11230100304
+        )
+
+    [3] => Array
+        (
+            [id_product] => MKUP-BNB-01
+            [nama_product] => Barenbliss Roll To Volume Mascara
+            [product_detail] => Barenbliss Roll To Volume Mascara
+            [harga] => 79000
+            [diskon] => 0
+            [stok] => 20
+            [id_kategori] => MKUP-01
+            [gambar_1] => 1735114741_1559c94d5e861f025e4b.png
+            [gambar_2] => 1735114741_64c2bdfb623dad289b08.png
+            [gambar_3] => 1735114741_8b910178c4fbfa788e7f.png
+            [gambar_4] => 1735114741_34c1d928eeefd1375429.png
+            [deskripsi] => Volumizing maskara yang diperkaya dengan Polypeptide dan Vitamin E yang merawat dan memperkuat bulu mata untuk bulu mata yang lebih lentik dan tebal.
+
+Good To Know: 
+
+Tahan Air, Tahan Keringat, Tahan Smudgeproof, Rectangle Bristle Wand, Tahan Lama, Bebas Gumpalan, Tidak Lengket, Tidak Mengelupas, Menutrisi, Memperkuat.
+
+SPECIAL INGREDIENTS: 1. Polypeptide Complex dari kombinasi Blue Copper Peptide, Tripeptide, Tetrapeptide, dan Pentapeptide untuk mencegah kerontokan bulu mata dan meningkatkan eyelash hair barrier. 2. Vitamin E adalah antioksidan yang menutrisi dan memperkuat bulu mata. 3. Ekstrak Akar Polygonum multiflorum adalah ekstrak tumbuhan yang membantu mempercepat pertumbuhan bulu mata.
+            [manfaat] => Manfaat Barenbliss Roll To Volume Mascara:
+
+Volume Maksimal: Memberikan volume yang lebih penuh pada bulu mata Anda, memberikan efek mata yang lebih besar dan dramatis.
+
+Penampilan Bulu Mata Lebih Tebal: Dengan formula khusus, mascara ini membantu menebalkan bulu mata secara instan, memberikan kesan bulu mata yang lebih tebal dan lentik.
+
+Tahan Lama: Diformulasikan untuk memberikan daya tahan sepanjang hari, sehingga tidak perlu khawatir mascara akan luntur atau menghilang.
+
+Fleksibilitas Pengaplikasian: Dengan aplikator berbentuk unik yang memungkinkan pengaplikasian lebih mudah dan presisi, memastikan setiap helai bulu mata terlapisi dengan sempurna.
+
+Tahan Air dan Smudge-Proof: Mengurangi risiko smudging atau luntur meski terkena air atau keringat, cocok untuk segala aktivitas.
+
+Meningkatkan Efek Lengkungan: Membantu membentuk dan melengkungkan bulu mata dengan sempurna, memberikan efek mata yang lebih terbuka dan ekspresif.
+
+Cocok untuk Semua Jenis Bulu Mata: Baik untuk bulu mata pendek, lurus, atau tipis, memberikan hasil yang maksimal dengan satu lapisan atau lebih.
+            [kandungan] => Ingredients: Ingredients: Isododecane, Aluminum Starch Octenylsuccinate, Synthetic Wax, Ozokerite, Trimethylsiloxysilicate, Tridecyl Trimellitate, Polyisobutene, Copernicia Cerifera (Carnauba) Wax, CI 77499, Ethylene/Propylene/Styrene Copolymer, Water, Phenoxyethanol, Tocopherol, Butylene Glycol, 1,2-Hexanediol, Polyglyceryl-10 Laurate, Propylene Glycol, Caprylic/Capric Triglyceride, Lecithin, Polygonum Multiflorum Root Extract, Copper Tripeptide-1, Acetyl Tetrapeptide-3, Tripeptide-1, Myristoyl Pentapeptide-4.
+            [cara_penggunaan] => Cara Pakai: Untuk hasil yang lebih baik, gunakan penjepit bulu mata sebelum mengaplikasikan maskara. Aplikasikan dalam gerakan zig-zag agar produk teraplikasikan secara rata pada tiap helai bulu mata. Ulangi proses untuk membangun volume bulu mata.
+            [ukuran] => 8 gr
+            [no_bpom] => NA11221200726
+        )
+
+    [4] => Array
+        (
+            [id_product] => MKUP-G2G-01
+            [nama_product] => Glad2Glow  Perfect Cover Cushion
+            [product_detail] => Glad2Glow Perfect Cover Cushion
+            [harga] => 89000
+            [diskon] => 0
+            [stok] => 10
+            [id_kategori] => MKUP-01
+            [gambar_1] => 1735113825_616265d414b8c219807c.png
+            [gambar_2] => 1735113825_2021ab69c0f8ec55565a.png
+            [gambar_3] => 1735113825_aa5a1673066be61a45ee.png
+            [gambar_4] => 1735113825_e0f44113b35f296839a7.png
+            [deskripsi] => Cushion dengan kandungan skincare, coverage tinggi namun terasa ringan di wajah. Dilengkapi puff dengan bentuk unik, menjangkau setiap sudut area wajah lebih mudah dan merata
+            [manfaat] => Hasil Riasan Glowing: Cushion Glad2Glow memberikan hasil akhir yang glowing dan dewy, memberikan tampilan wajah yang segar dan bercahaya, ideal untuk tampilan natural yang cerah.
+
+Tekstur Ringan dan Mudah Meresap: Dengan formula ringan, cushion ini mudah meresap ke dalam kulit tanpa terasa berat, memberikan kenyamanan sepanjang hari.
+
+Tahan Lama: Cushion Glad2Glow diformulasikan untuk memberikan daya tahan yang panjang, tetap bertahan meski dalam aktivitas yang padat, menjaga kulit tetap terlihat cantik dan segar.
+
+Melindungi Kulit dari Sinar UV: Dilengkapi dengan perlindungan dari sinar UV, cushion ini membantu melindungi kulit dari efek buruk sinar matahari, menjaga kulit tetap sehat dan terlindungi.
+
+Melembapkan Kulit: Formula cushion ini mengandung bahan pelembap yang membantu menjaga kelembapan kulit, sehingga kulit tetap terhidrasi dan tampak halus.
+
+Menyamarkan Kekurangan Kulit: Dengan coverage yang cukup, Cushion Glad2Glow efektif untuk menyamarkan noda, bekas jerawat, dan warna kulit yang tidak merata, memberikan tampilan wajah yang lebih sempurna.
+
+Praktis dan Mudah Digunakan: Dengan kemasan yang praktis, Cushion Glad2Glow sangat mudah dibawa dan digunakan kapan saja, memberikan kemudahan dalam merias wajah saat bepergian.
+
+Tersedia dalam Berbagai Shade: Cushion ini hadir dalam berbagai pilihan shade yang cocok untuk berbagai warna kulit, memungkinkan Anda untuk memilih yang paling sesuai dengan tone kulit Anda.
+            [kandungan] => AQUA, CI 77891, CYCLOPENTASILOXANE, TRIMETHYLSILOXYSILICATE, DIMETHICONE, METHYL TRIMETHICONE, HEXYLDECYL MYRISTOYL METHYLAMINOPROPIONATE, BUTYLENE GLYCOL, CI 77492, GLYCERIN, ACRYLATES/STEARYL ACRYLATE/DIMETHICONE METHACRYLATE COPOLYMER, CI 77491, MAGNESIUM SULFATE, DISTEARDIMONIUM HECTORITE, ALUMINUM HYDROXIDE, TRIETHOXYCAPRYLYLSILANE, SYNTHETIC FLUORPHLOGOPITE, 1,2-HEXANEDIOL, CI 77499, CAPRYLYL GLYCOL, DIMETHICONE CROSSPOLYMER, GLYCERYL CAPRYLATE, TRIHYDROXYSTEARIN, PALMITIC ACID, ETHYLHEXYLGLYCERIN, SORBITAN SESQUIOLEATE, TOCOPHEROL, PENTAERYTHRITYL TETRA-DI-T-BUTYL HYDROXYHYDROCINNAMATE, PANTHENOL, FRAGARIA VESCA FRUIT EXTRACT, MORUS ALBA ROOT EXTRACT, RUBUS IDAEUS (RASPBERRY) FRUIT EXTRACT, VACCINIUM ANGUSTIFOLIUM FRUIT EXTRACT, PRUNUS PERSICA (PEACH) FRUIT EXTRACT, TITANIUM DIOXIDE (NANO), ZINC OXIDE (NANO), HOMOSALATE, HYDROLYZED HYALURONIC ACID, HYDROGENATED LECITHIN, DIPROPYLENE GLYCOL, PENTYLENE GLYCOL, GLYCERYL STEARATE, SUCROSE DISTEARATE
+            [cara_penggunaan] => 1. Buka penutup cushion dan lepaskan stiker pelindung
+2. Ambil secukupnya dengan menekan spons pada bagian dalam
+3. Tap ke seluruh wajah
+4. Tutup cushion apabila telah selesai digunakan agar tidak kering
+            [ukuran] => 11 gr
+            [no_bpom] => NA11230300457
+        )
+
+    [5] => Array
+        (
+            [id_product] => MKUP-MYBLN-01
+            [nama_product] => Maybelline  Lip Lifter Gloss
+            [product_detail] => MAYBELLINE Color Sensational Lifter Gloss Plump MakeUp
+            [harga] => 156900
+            [diskon] => 0
+            [stok] => 100
+            [id_kategori] => MKUP-01
+            [gambar_1] => 1735113077_e36dfdc9427f71031637.png
+            [gambar_2] => 1735113077_07904adb264071a24614.png
+            [gambar_3] => 1735113077_eb7f9306ac478c6174d2.png
+            [gambar_4] => 1735113077_4eb2341f4cc38019531f.png
+            [deskripsi] => Lip gloss viral dari Maybelline, no 1 di US yang dicintai oleh influencer dan konsumen, tidak hanya membuat bibir semakin cantik namun juga merawatnya dengan Hyaluronic Acid . Tersedia dalam 6 warna yang bisa dipakai sendiri maupun di atas lipstick favoritmu:
+- 002 ICE : Lip Gloss Clear Tanpa warna cocok untuk jadi topper untuk glossy lip
+- 004 SILK: Lip Gloss dengan warna pinkish nude
+- 005 PETAL - Lip Gloss dengan warna berry pink
+- 008 STONE - Lip Gloss dengan warna nude
+- 009 TOPAZ - Lip Gloss clear dengan hint brownish nude
+- 007 COPPER  Lip Gloss dengan warna bronzed gold
+            [manfaat] => Manfaat:
+- Plumpy Lips: Bibir terlihat lebih sehat & full tanpa filler
+- Hyaluronic Acid : Bibir terlihat lebih halus dan terhidrasi
+- 90% orang dalam consumer test setuju bibir terasa terhidrasi
+- XL wand : Menonjolkan lekukan bibir dalam 1x swipe
+            [kandungan] => C18-36 ACID TRIGLYCERIDE ●BIS-DIGLYCERYL POLYACYLADIPATE-2 ●PENTAERYTHRITYL TETRAISOSTEARATE ●POLYBUTENE ●TRIDECYL TRIMELLITATE ●DIISOSTEARYL MALATE ●SILICA DIMETHYL SILYLATE ●PHENOXYETHANOL ●ETHYLHEXYL PALMITATE ●PENTAERYTHRITYL TETRA-DI-T-BUTYL HYDROXYHYDROCINNAMATE ●CALCIUM SODIUM BOROSILICATE ●ETHYLHEXYLGLYCERIN ●CALCIUM ALUMINUM BOROSILICATE ●TOCOPHERYL ACETATE ●SODIUM SACCHARIN ●SORBIC ACID ●ALUMINA ●SILICA ●POLYBUTYLENE TEREPHTHALATE ●TRIHYDROXYSTEARIN ●COCOS NUCIFERA OIL / COCONUT OIL ●ALUMINUM HYDROXIDE ●ETHYLENE/VA COPOLYMER ●ACRYLATES COPOLYMER ●TIN OXIDE ●SODIUM HYALURONATE ●SYNTHETIC FLUORPHLOGOPITE ●TOCOPHEROL ●MAGNESIUM SILICATE ●GLUCOMANNAN ●PARFUM / FRAGRANCE ●
+            [cara_penggunaan] => Aplikasikan lip gloss di area bibir secara merata, tunggu beberapa saat hingga formulanya melekat sempurna! 
+            [ukuran] => 5.4 ml
+            [no_bpom] => NE51201300073
+        )
+
+    [6] => Array
+        (
+            [id_product] => SKNCR-01
+            [nama_product] => SKINTIFIC MSH Niacinamide Brightening Moisturizer Glowing Moisture Gel 30g
+            [product_detail] => MSH Niacinamide Brightening Moisture Gel dengan tekstur seringan udara
+            [harga] => 215729
+            [diskon] => 25
+            [stok] => 100
+            [id_kategori] => SKNCR-01
+            [gambar_1] => 1734582687_62e096776a4b0f567ff8.jpeg
+            [gambar_2] => 1734582687_18487ed6916d4c1fef1a.jpeg
+            [gambar_3] => 1734582687_7c6f0f2cb7b97e38b7bc.jpeg
+            [gambar_4] => 1734582687_112fe3b57a3aada0c324.jpeg
+            [deskripsi] => MSH Niacinamide Brightening Moisture Gel dengan tekstur seringan udara, dapat menyerap dengan cepat dan mengontrol minyak dalam 24 jam. Diformulasikan dengan Novel MSH Niacinamide ekslusif SKINTIFIC yang dikombinasikan dengan dua bahan pencerah yang ringan dan paling efektif yaitu Alpha Arbutin dan Tranexamic Acid, mampu mencerahkan dengan signifikan dalam waktu 14 hari. MSH Niacinamide terbukti secara klinis 10 kali lebih efektif dibandingkan niacinamide biasa dalam membantu menyejukkan kulit yang teriritasi ringan dan membantu merawat elastisitas kulit. Diperkaya dengan Centella Asiatica dan 5X Ceramide yang memberikan efek menenangkan kulit sekaligus memperbaiki dan menjaga skin barrier.
+            [manfaat] => SKINTIFIC MSH Niacinamide Brightening Moisturizer Glowing Moisture Gel 30g
+            [kandungan] => WATER, BUTYLENE GLYCOL, ISONONYL ISONONANOATE, GLYCERIN, NIACINAMIDE, CERAMIDE EOP, CERAMIDE NS/CERAMIDE NG, UNDECYLENOYL PHENYLALANINE(MSH)，CENTELLA ASIATICA EXTRACT, ALPHA ARBUTIN, CERAMIDE NP, TRANEXAMIC ACID, CERAMIDE AS, CERAMIDE AP, LIMNANTHES ALBA (MEADOWFOAM) SEED OIL, BETAINE, JOJOBA ESTERS, HYDROXYACETOPHENONE, PANTHENOL, 1,2-HEXANEDIOL, CETEARYL OLIVATE, CYCLOHEXASILOXANE, SORBITAN OLIVATE, BIS-PEG/PPG-20/5 PEG/PPG-20/5 DIMETHICONE, METHOXY PEG/PPG-25/4 DIMETHICONE, ACRYLATES/C10-30 ALKYL ACRYLATE CROSSPOLYMER, DIMETHICONE/VINYL DIMETHICONE CROSSPOLYMER, ARMILLARIA MATSUTAKE EXTRACT, PENTYLENE GLYCOL, SACCHAROMYCES CEREVISIAE EXTRACT
+            [cara_penggunaan] => Ambil produk secukupnya dan oleskan pada kulit wajah secara merata. Dapat digunakan pagi dan malam hari.
+            [ukuran] => 30 gr
+            [no_bpom] => NA11220100489, NA11230100360
+        )
+
+    [7] => Array
+        (
+            [id_product] => SKNCR-AZRN-01
+            [nama_product] => Azarine  Acne Spot Serum
+            [product_detail] => AZARINE ACNE SPOT SERUM DUAL ACTION ANTI ACNE AND BRIGHTENING SERUM 20 ML EDISI MARVEL
+            [harga] => 29000
+            [diskon] => 0
+            [stok] => 20
+            [id_kategori] => SKNCR-01
+            [gambar_1] => 1735116839_e03e5f08113531d9dd89.png
+            [gambar_2] => 1735116839_2751442ba9421368c0bf.jpg
+            [gambar_3] => 1735116839_d6b3e3b82c26ca9e342a.png
+            [gambar_4] => 1735116839_40047ae93016f740de76.jpg
+            [deskripsi] => Serum dengan duo action yaitu memudarkan jerawat serta kulit kusam. Di formulasikan dengan Succinic Acid sebagai alternatif Asam Salisilat, CICA dan ekstrak lain untuk merawat kulit berjerawat. Kandungan Arbutin dan Papaya untuk menyamarkan bekas jerawat sekaligus mencerahkan agar kulit tampak lebih bersih.
+            [manfaat] => 1. Merawat kulit berjerawat · 
+2. Mengatasi bruntusan · 
+3. Mengandung anti bakteri · 
+4. Mengontrol sebum berlebih. 
+            [kandungan] => Aqua, Glycerin, Succinic Acid, Propanediol, Centella Asiatica Extract, Capryloyl Glycine, Carica Papaya Fruit Extract, Arbutin, Chlorphenesin, Nelumbo Nucifera Leaf Extract, Camellia Sinensis Leaf Extract, Psidium Guajava Leaf Extract, Angelica Gigas Extract, Phenoxyethanol, Sarcosine, Xanthan Gum, Cinnamomum Zeylanicum Bark Extract.
+            [cara_penggunaan] => Teteskan di wajah di bagian jerawat, cukup 2-3 tetes lalu ratakan ke bagian yang berjerawat
+            [ukuran] => 20 ml
+            [no_bpom] => NA18210111852
+        )
+
+    [8] => Array
+        (
+            [id_product] => SKNCR-ORGNT-01
+            [nama_product] => The Originote  Mugwort B3 Clay Stick
+            [product_detail] => THE ORIGINOTE Mugwort B3 Clay Stick Mask
+            [harga] => 41800
+            [diskon] => 0
+            [stok] => 10
+            [id_kategori] => SKNCR-01
+            [gambar_1] => 1735116191_55f2682087a9fe296028.png
+            [gambar_2] => 1735116191_6880023533cfb0c12acd.jpg
+            [gambar_3] => 1735116191_fa6eb3634b46e65d9e5a.jpg
+            [gambar_4] => 1735116191_3aac83fc1e0425200399.jpg
+            [deskripsi] => THE ORIGINOTE Mugwort B3 Clay Stick Mask ampuh membantu menenangkan dan merawat jerawat, mengurangi minyak berlebih, mengeksfoliasi wajah, membersihkan dan memberi rasa kencang pada kulit, dan membuat kulit terasa lebih kencang dan halus. mengandung mugwort yang dipercaya ampuh meredakan masalah jerawat.
+            [manfaat] => Masker Clay Stick untuk menenangkan jerawat.
+- Membantu menenangkan dan merawat jerawat
+- Membantu mengurangi minyak berlebih
+- Membantu mengeksfoliasi wajah
+- Membantu membersihkan dan memberi rasa kencang pada kulit
+- Membantu membuat kulit terasa lebih kencang dan halus
+            [kandungan] => Setelah membersihkan wajah, gunakan secara merata pada wajah. Hindari daerah mata dan mulut. Biarkan selama 10-15 menit dan bilas dengan air. Gunakan 1-2 kali seminggu untuk hasil yang lebih maksimal.
+            [cara_penggunaan] => Water, kaolin, butylene glycol, glycerin, propylene glycol, diatomaceous earth, sodium stearate, titanium dioxide, PEG-8, VP/VA copolymer, CI 77288, silica, bamboo charcoal, CI 77492, mica, alumina, chlorphenesin, niacinamide, salicylic acid, artemisia argyi leaf extract, fragrance, menthol, centella asiatica extract, propanediol, 1,2-hexanediol, zinc pca, nymphaea caerulea flower water, lactobacillus/rice ferment, salix alba (willow) bark extract, bisabolol, propolis extract, calendula officinalis flower extract, caprylhydroxamic acid
+            [ukuran] => 40 gr
+            [no_bpom] => NA11230200209
+        )
+
+)
+
+INFO - 2024-12-26 07:13:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-26 07:13:09 --> Undefined array key "nm_kategori"
+in APPPATH\Views\categories.php on line 243.
+ 1 APPPATH\Views\categories.php(243): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nm_kategori"', 'D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\app\\Views\\categories.php', 243)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\app\\Views\\categories.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('categories', [], true)
+ 5 APPPATH\Controllers\Home.php(153): view('categories', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->categories()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\public\\index.php')
+INFO - 2024-12-26 07:13:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-26 07:13:27 --> Undefined variable $current_category
+in APPPATH\Views\categories.php on line 170.
+ 1 APPPATH\Views\categories.php(170): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $current_category', 'D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\app\\Views\\categories.php', 170)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\app\\Views\\categories.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('categories', [], true)
+ 5 APPPATH\Controllers\Home.php(144): view('categories', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->categories()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\public\\index.php')
+INFO - 2024-12-26 07:14:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 07:17:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 07:19:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 07:20:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 07:21:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 07:28:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 07:30:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 07:32:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 07:33:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 07:35:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 07:36:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 07:37:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 07:42:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 07:42:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 07:45:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 07:45:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 07:46:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 07:46:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 07:46:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 07:46:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 07:47:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 07:48:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 07:48:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 07:48:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 07:49:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 07:49:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 07:51:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 07:51:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 07:51:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 07:51:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 07:51:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 07:51:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 07:51:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 07:51:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 07:51:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 07:52:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 07:52:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 07:52:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 07:55:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 07:56:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 07:56:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 07:56:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 07:56:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:00:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:00:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:03:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:03:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:03:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:03:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:03:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:04:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:04:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:05:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:06:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:06:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:06:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:06:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:06:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:06:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:06:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:06:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:06:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:06:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:06:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:07:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:07:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:07:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:07:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:07:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:07:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:07:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:07:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:08:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:08:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:08:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:08:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:08:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:09:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:10:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:10:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:11:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:12:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:12:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:13:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:17:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:18:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:18:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:19:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:19:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:19:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:19:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:19:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:20:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:20:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:21:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:22:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:22:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:23:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:25:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:25:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:25:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:25:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:25:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:25:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:25:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:26:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:55:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:55:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:55:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-26 09:04:32 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Models\ProductModel.php on line 23.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\app\\Models\\ProductModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\ProductModel')
+ 4 APPPATH\Controllers\Cart.php(48): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\ProductModel')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Cart->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\public\\index.php')
+CRITICAL - 2024-12-26 09:08:16 --> Undefined array key "image_url"
+in APPPATH\Views\cart.php on line 157.
+ 1 APPPATH\Views\cart.php(157): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "image_url"', 'D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\app\\Views\\cart.php', 157)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\app\\Views\\cart.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('cart', [], true)
+ 5 APPPATH\Controllers\Cart.php(54): view('cart', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Cart->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\public\\index.php')
+CRITICAL - 2024-12-26 09:10:47 --> Undefined array key "nm_kategori"
+in APPPATH\Views\cart.php on line 98.
+ 1 APPPATH\Views\cart.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nm_kategori"', 'D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\app\\Views\\cart.php', 98)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\app\\Views\\cart.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('cart', [], true)
+ 5 APPPATH\Controllers\Cart.php(54): view('cart', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Cart->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\public\\index.php')
+CRITICAL - 2024-12-26 09:12:33 --> Undefined array key "nm_kategori"
+in APPPATH\Views\cart.php on line 98.
+ 1 APPPATH\Views\cart.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nm_kategori"', 'D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\app\\Views\\cart.php', 98)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\app\\Views\\cart.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('cart', [], true)
+ 5 APPPATH\Controllers\Cart.php(57): view('cart', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Cart->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\public\\index.php')
+CRITICAL - 2024-12-26 09:12:36 --> Undefined array key "nm_kategori"
+in APPPATH\Views\cart.php on line 98.
+ 1 APPPATH\Views\cart.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nm_kategori"', 'D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\app\\Views\\cart.php', 98)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\app\\Views\\cart.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('cart', [], true)
+ 5 APPPATH\Controllers\Cart.php(57): view('cart', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Cart->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\A_PERKULIAHAN\\SEMESTER 5 nadila\\E - COMMERCE\\elora\\public\\index.php')
+INFO - 2024-12-26 09:25:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 09:25:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

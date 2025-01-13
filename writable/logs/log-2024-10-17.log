@@ -1,0 +1,6 @@
+CRITICAL - 2024-10-17 05:24:33 --> Cannot redeclare App\Controllers\Home::contact()
+in APPPATH\Controllers\Home.php on line 17.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-10-17 05:24:36 --> Cannot redeclare App\Controllers\Home::contact()
+in APPPATH\Controllers\Home.php on line 17.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
