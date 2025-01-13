@@ -265,6 +265,10 @@ class Product extends BaseController
         // Update data produk
         $model->update($id_product, $updatedData);
 
+        if ($updatedData['stok'] == 0) {
+            $model->update($id_product, ['status' => 'Nonaktif']);
+        }
+
         // Redirect ke halaman sesuai kategori setelah update
         $category = strtolower($this->request->getPost('id_kategori'));
         $message = 'Produk berhasil diperbarui!';
