@@ -277,6 +277,9 @@
 															Rp <?= number_format($product['harga'], 0, ',', '.'); ?> <!-- Harga tanpa diskon -->
 														<?php endif; ?>
 													</div>
+													<div class="product_stok">
+														Stok : <?= $product['stok'] > 0 ? $product['stok'] : 'Out of stock'; ?>
+													</div>
 												</div>
 											</div>
 											<div class="red_button add_to_cart_button">
