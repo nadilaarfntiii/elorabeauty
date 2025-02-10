@@ -408,6 +408,15 @@
                     </div>
                 </div>
 
+                <?php if ($potongan > 0): ?>
+                    <div class="row" style="padding: 1vh 2px;" id="potongan-qty">
+                        <div class="col-12 d-flex justify-content-between">
+                            <span>Potongan</span>
+                            <span style="color: red;">- Rp <?= number_format($potongan, 0, ',', '.'); ?></span>
+                        </div>
+                    </div>
+                <?php endif; ?>
+
                 <!-- Tarif Pengiriman -->
                 <div class="row" style="padding: 1vh 2px;">
                     <div class="col-12 d-flex justify-content-between">
@@ -434,25 +443,25 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
 <script>
     document.addEventListener('DOMContentLoaded', function () {
-        const shippingSelect = document.getElementById('shipping-select');
-        const shippingCostElement = document.getElementById('shipping-cost'); 
-        const totalPriceElement = document.getElementById('total-price');
-        const initialTotalPrice = <?= $total_harga_produk; ?>; 
+    const shippingSelect = document.getElementById('shipping-select');
+    const shippingCostElement = document.getElementById('shipping-cost'); 
+    const totalPriceElement = document.getElementById('total-price');
+    const initialTotalPrice = <?= $total_harga_produk; ?>; 
+    const potongan = <?= $potongan; ?>; // Tambahkan variabel potongan dari PHP
 
-        function updateTotalPrice() {
-            const selectedOption = shippingSelect.options[shippingSelect.selectedIndex];
-            const shippingCost = parseInt(selectedOption.getAttribute('data-tarif')) || 0; 
-            const totalPrice = initialTotalPrice + shippingCost;
+    function updateTotalPrice() {
+        const selectedOption = shippingSelect.options[shippingSelect.selectedIndex];
+        const shippingCost = parseInt(selectedOption.getAttribute('data-tarif')) || 0; 
+        const totalPrice = (initialTotalPrice - potongan) + shippingCost; // Perhitungan baru
 
-            shippingCostElement.textContent = 'Rp ' + new Intl.NumberFormat('id-ID').format(shippingCost);
+        shippingCostElement.textContent = 'Rp ' + new Intl.NumberFormat('id-ID').format(shippingCost);
+        totalPriceElement.textContent = 'Rp ' + new Intl.NumberFormat('id-ID').format(totalPrice);
+    }
 
-            totalPriceElement.textContent = 'Rp ' + new Intl.NumberFormat('id-ID').format(totalPrice);
-        }
+    updateTotalPrice();
+    shippingSelect.addEventListener('change', updateTotalPrice);
+});
 
-        updateTotalPrice();
-
-        shippingSelect.addEventListener('change', updateTotalPrice);
-    });
 </script>
 
 
@@ -471,7 +480,7 @@
             const newQty = isIncrease ? currentQty + 1 : currentQty - 1;
 
             if (newQty < 1) {
-                alert("Quantity cannot be less than 1.");
+                alert("Quantity tidak bisa kurang dari 1.");
                 return;
             }
 
@@ -525,7 +534,7 @@
                         totalPriceElement.textContent = 'Rp ' + new Intl.NumberFormat('id-ID').format(totalPrice);
 
                     } else {
-                        alert(data.message || 'Failed to update quantity.');
+                        alert(data.message || 'Gagal update quantity.');
                     }
                 })
         });

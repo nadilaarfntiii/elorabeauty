@@ -17,17 +17,13 @@ class Cart extends Controller
         $userId = $session->get('id_user');
         $newQuantity = $this->request->getJSON()->quantity;
 
-        // Log data yang diterima
-        log_message('info', 'Received quantity: ' . $newQuantity); // Log data quantity
-
         if ($newQuantity < 1) {
             return $this->response->setJSON([
                 'success' => false,
-                'message' => 'Quantity cannot be less than 1.',
+                'message' => 'Quantity tidak bisa kurang dari 1.',
             ]);
         }
 
-        // Dapatkan produk di keranjang
         $cartItem = $cartModel->where('id_user', $userId)
                               ->where('id_product', $productId)
                               ->first();
@@ -35,11 +31,10 @@ class Cart extends Controller
         if (!$cartItem) {
             return $this->response->setJSON([
                 'success' => false,
-                'message' => 'Product not found in cart.',
+                'message' => 'Product tidak ada di keranjang.',
             ]);
         }
 
-        // Perbarui kuantitas dan total harga
         $productModel = new ProductModel();
         $product = $productModel->find($productId);
 
@@ -50,7 +45,6 @@ class Cart extends Controller
             ]);
         }
 
-        // Menghitung total setelah memperbarui kuantitas
         $hargaDiskon = $product['harga'];
         if (!empty($product['diskon'])) {
             $hargaDiskon = $product['harga'] - ($product['harga'] * $product['diskon'] / 100);
@@ -58,35 +52,35 @@ class Cart extends Controller
 
         $newTotal = $hargaDiskon * $newQuantity;
 
-        // Log total harga
-        log_message('info', 'Total baru untuk produk: ' . $newTotal); // Log total harga baru
-
-        // Update keranjang dengan kuantitas baru dan total harga
         $cartModel->update($cartItem['id_cart'], [
             'qty' => $newQuantity,
             'total' => $newTotal,
         ]);
 
-        // Update total harga keranjang dan pengiriman
+        // Hitung ulang total keranjang
         $cartItems = $cartModel->where('id_user', $userId)->findAll();
+        $totalQty = array_sum(array_column($cartItems, 'qty'));
         $totalCartPrice = array_sum(array_column($cartItems, 'total'));
 
-        $total_harga_produk = 0;
-        foreach ($cartItems as $item) {
-            $total_harga_produk += $item['total']; // Gunakan total yang sudah dihitung di addToCart
-        }
+        // Potongan jika total qty > 2
+        $potongan = ($totalQty > 2) ? 10000 : 0;
 
-        $shipping_cost = 50000;
+        // Hitung biaya pengiriman dari ekspedisi yang dipilih
+        $ekspedisiModel = new \App\Models\EkspedisiModel();
+        $ekspedisi = $ekspedisiModel->where('status', 'Aktif')->first();
+        $shippingCost = $ekspedisi ? $ekspedisi['tarif_pengiriman'] : 0;
 
-        $total_bayar = $total_harga_produk + $shipping_cost;
+        // Total bayar akhir
+        $totalBayar = ($totalCartPrice - $potongan) + $shippingCost;
 
         return $this->response->setJSON([
             'success' => true,
-            'newTotal' => $totalCartPrice,  
-            'productTotal' => $newTotal,    // Mengirimkan total produk
-            'totalHargaProduk' => $total_harga_produk, 
-            'shippingCost' => $shipping_cost, 
-            'totalBayar' => $total_bayar, 
+            'newTotal' => $totalCartPrice,
+            'productTotal' => $newTotal,
+            'totalQty' => $totalQty,
+            'potongan' => $potongan,
+            'shippingCost' => $shippingCost,
+            'totalBayar' => $totalBayar,
         ]);
     }
 
@@ -94,53 +88,53 @@ class Cart extends Controller
 }
 
 
-    public function index()
-    {
-        $cartModel = new CartModel();
-        $ekspedisiModel = new EkspedisiModel();
-        $session = session();
-        $userId = $session->get('id_user');
-        
-        // Redirect ke login jika user belum login
-        if (!$userId) {
-            return redirect()->to('/login');
-        }
+public function index()
+{
+    $cartModel = new CartModel();
+    $ekspedisiModel = new EkspedisiModel();
+    $session = session();
+    $userId = $session->get('id_user');
 
-        // Ambil detail produk di keranjang
-        $cartItems = $cartModel->getCartDetails($userId);
-        $data['products'] = $cartItems;
-
-        // Mendapatkan data ekspedisi dengan status Aktif
-        $ekspedisi = $ekspedisiModel->where('status', 'Aktif')->findAll();
-        $data['ekspedisi'] = $ekspedisi;
-
-        // Inisialisasi nilai default
-        $shippingCost = 0;
-        $totalHargaProduk = 0;
-
-        // Periksa jika ada produk di keranjang
-        if (!empty($cartItems)) {
-            foreach ($cartItems as $item) {
-                $totalHargaProduk += $item['total']; 
-            }
-
-            // Ambil tarif pengiriman dari ekspedisi yang dipilih
-            if (!empty($ekspedisi)) {
-                // Jika ada ekspedisi, ambil tarif pengiriman dari ekspedisi pertama
-                $shippingCost = $ekspedisi[0]['tarif_pengiriman'];
-            }
-        }
-
-        // Hitung total bayar (produk + tarif pengiriman)
-        $totalBayar = $totalHargaProduk + $shippingCost;
-
-        // Menyimpan data ke dalam view
-        $data['shipping_cost'] = $shippingCost;
-        $data['total_harga_produk'] = $totalHargaProduk;
-        $data['total_bayar'] = $totalBayar;
-
-        return view('cart', $data);
+    if (!$userId) {
+        return redirect()->to('/login');
     }
+
+    $cartItems = $cartModel->getCartDetails($userId);
+    $data['products'] = $cartItems;
+
+    $ekspedisi = $ekspedisiModel->where('status', 'Aktif')->findAll();
+    $data['ekspedisi'] = $ekspedisi;
+
+    $shippingCost = 0;
+    $totalHargaProduk = 0;
+    $totalQty = 0;
+    $potongan = 0;
+
+    if (!empty($cartItems)) {
+        foreach ($cartItems as $item) {
+            $totalHargaProduk += $item['total']; 
+            $totalQty += $item['qty'];
+        }
+
+        if ($totalQty > 2) {
+            $potongan = 10000;
+        }
+
+        if (!empty($ekspedisi)) {
+            $shippingCost = $ekspedisi[0]['tarif_pengiriman'];
+        }
+    }
+
+    $totalBayar = ($totalHargaProduk - $potongan) + $shippingCost;
+
+    $data['shipping_cost'] = $shippingCost;
+    $data['total_harga_produk'] = $totalHargaProduk;
+    $data['total_bayar'] = $totalBayar;
+    $data['potongan'] = $potongan;
+    $data['total_qty'] = $totalQty;
+
+    return view('cart', $data);
+}
 
     public function addToCart($productId)
 {
